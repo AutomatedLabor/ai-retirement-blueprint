@@ -5,12 +5,17 @@ import { guides } from "@/data/guides";
 import { tools } from "@/data/tools";
 import { resources } from "@/data/resources";
 import { research } from "@/data/research";
+import { checklists } from "@/data/checklists";
+import { cheatsheets } from "@/data/cheatsheets";
+import { roadmaps } from "@/data/roadmaps";
 
 const stats = [
   { label: "Guides", value: guides.length.toString(), icon: "📚" },
-  { label: "Tools", value: tools.length.toString(), icon: "🔧" },
+  { label: "Interactive Tools", value: tools.length.toString(), icon: "🔧" },
   { label: "Resources", value: resources.length.toString(), icon: "🌐" },
   { label: "Research Reports", value: research.length.toString(), icon: "🔬" },
+  { label: "Checklists", value: checklists.length.toString(), icon: "✅" },
+  { label: "Cheatsheets", value: cheatsheets.length.toString(), icon: "📋" },
 ];
 
 export default function Home() {
@@ -43,14 +48,14 @@ export default function Home() {
       </section>
 
       {/* Stats */}
-      <section className="bg-white border-b">
+      <section className="bg-white dark:bg-gray-900 border-b dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-3xl mb-2">{stat.icon}</div>
-                <div className="text-3xl font-bold text-gray-900">{stat.value}</div>
-                <div className="text-sm text-gray-500 mt-1">{stat.label}</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white">{stat.value}</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400 mt-1">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -79,7 +84,7 @@ export default function Home() {
       </Section>
 
       {/* Featured Guides */}
-      <Section title="Start Here" subtitle="The essential reading list, ordered by where you should begin" className="bg-gray-50">
+      <Section title="Start Here" subtitle="The essential reading list, ordered by where you should begin" className="bg-gray-50 dark:bg-gray-950">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {guides.slice(0, 6).map((guide) => (
             <Card key={guide.slug} title={guide.title} description={guide.description} icon={guide.icon} href={`/guides/${guide.slug}`} tag={guide.difficulty} tagColor={guide.difficulty === "Beginner" ? "accent" : guide.difficulty === "Intermediate" ? "primary" : "gold"} />
@@ -92,8 +97,34 @@ export default function Home() {
         </div>
       </Section>
 
+      {/* Quick Links - New Sections */}
+      <Section title="New: Actionable Resources" subtitle="Checklists, cheatsheets, roadmaps, and answers to every question" className="bg-gray-50 dark:bg-gray-950">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <Link href="/checklists" className="bg-white dark:bg-gray-900 rounded-xl p-6 border dark:border-gray-800 card-hover">
+            <div className="text-3xl mb-3">✅</div>
+            <h3 className="font-bold text-lg">Checklists</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{checklists.length} downloadable checklists to keep you on track</p>
+          </Link>
+          <Link href="/cheatsheets" className="bg-white dark:bg-gray-900 rounded-xl p-6 border dark:border-gray-800 card-hover">
+            <div className="text-3xl mb-3">📋</div>
+            <h3 className="font-bold text-lg">Cheatsheets</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{cheatsheets.length} quick-reference guides you can copy and print</p>
+          </Link>
+          <Link href="/roadmaps" className="bg-white dark:bg-gray-900 rounded-xl p-6 border dark:border-gray-800 card-hover">
+            <div className="text-3xl mb-3">🗺️</div>
+            <h3 className="font-bold text-lg">Roadmaps</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{roadmaps.length} step-by-step learning paths from zero to FI</p>
+          </Link>
+          <Link href="/faq" className="bg-white dark:bg-gray-900 rounded-xl p-6 border dark:border-gray-800 card-hover">
+            <div className="text-3xl mb-3">❓</div>
+            <h3 className="font-bold text-lg">FAQ</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Answers to 20+ questions about AI-powered retirement</p>
+          </Link>
+        </div>
+      </Section>
+
       {/* Tools Preview */}
-      <Section title="Interactive Tools" subtitle="Calculators, planners, and generators to make your plan concrete">
+      <Section title="Interactive Tools" subtitle="Calculators, planners, assessments, and generators to make your plan concrete">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {tools.slice(0, 6).map((tool) => (
             <Card key={tool.slug} title={tool.name} description={tool.description} icon={tool.icon} href={`/tools/${tool.slug}`} tag={tool.category} />

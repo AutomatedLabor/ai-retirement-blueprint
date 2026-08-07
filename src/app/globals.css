@@ -23,6 +23,105 @@ body {
   background: var(--background);
 }
 
+/* ===== Dark Mode Styles ===== */
+.dark body {
+  background-color: #030712;
+  color: #f3f4f6;
+}
+
+.dark .prose p,
+.dark .prose li {
+  color: #d1d5db;
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3 {
+  color: #f9fafb;
+}
+
+.dark .prose table th {
+  background-color: #1f2937;
+  color: #f9fafb;
+  border-color: #374151;
+}
+
+.dark .prose table td {
+  border-color: #374151;
+  color: #d1d5db;
+}
+
+.dark .prose code {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.dark .prose pre {
+  background-color: #111827;
+}
+
+.dark .prose blockquote {
+  border-color: #3b82f6;
+  color: #9ca3af;
+}
+
+.dark .prose a {
+  color: #60a5fa;
+}
+
+/* Dark mode for cards, sections, and common UI elements */
+.dark .card-hover,
+.dark .bg-white {
+  background-color: #111827 !important;
+}
+
+.dark .border-gray-200 {
+  border-color: #374151 !important;
+}
+
+.dark .text-gray-900 {
+  color: #f9fafb !important;
+}
+
+.dark .text-gray-700 {
+  color: #d1d5db !important;
+}
+
+.dark .text-gray-600 {
+  color: #9ca3af !important;
+}
+
+.dark .hover\:bg-gray-100:hover,
+.dark .hover\:bg-primary-50:hover {
+  background-color: rgba(59, 130, 246, 0.15) !important;
+}
+
+.dark .glass {
+  background-color: rgba(17, 24, 39, 0.8) !important;
+  border-color: rgba(55, 65, 81, 0.5) !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1f2937 !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: #111827 !important;
+}
+
+/* Dark mode for tags/badges */
+.dark .bg-primary-100 {
+  background-color: rgba(59, 130, 246, 0.2) !important;
+}
+
+.dark .bg-accent-100 {
+  background-color: rgba(34, 197, 94, 0.2) !important;
+}
+
+.dark .bg-gold-100 {
+  background-color: rgba(245, 158, 11, 0.2) !important;
+}
+
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 via-accent-500 to-gold-500;

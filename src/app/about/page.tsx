@@ -11,10 +11,10 @@ export default function AboutPage() {
         <div className="relative">
           <p className="text-xs uppercase tracking-widest text-white/60 font-semibold mb-3">Mission</p>
           <h1 className="text-2xl md:text-3xl font-bold leading-snug mb-3">
-            To give every person the actionable knowledge, tools, and framework to achieve financial independence using AI and online work — regardless of technical background, starting capital, or location.
+            To democratize the path to financial independence by giving every person — regardless of technical background, starting capital, or geography — the actionable knowledge, interactive tools, and proven frameworks to leverage AI for income generation, wealth building, and early retirement.
           </h1>
           <p className="text-white/70 text-sm max-w-2xl">
-            We believe the gap between "people who use AI" and "people who don't" is the single largest wealth-creation opportunity of this decade. This project exists to close that gap permanently.
+            The AI revolution is the largest wealth-creation opportunity of our generation. But opportunity without structure is just noise. We exist to bridge the gap between &quot;AI is powerful&quot; and &quot;here is exactly how I will use it to become financially free.&quot; Every guide, tool, and resource on this site is designed to move you one concrete step closer to that goal.
           </p>
         </div>
       </div>
@@ -33,26 +33,42 @@ export default function AboutPage() {
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">What&apos;s Inside</h2>
-        <div className="grid md:grid-cols-2 gap-4 my-6">
-          <div className="bg-primary-50 rounded-xl p-5 border border-primary-100">
-            <h3 className="font-bold text-primary-800">📚 Guides</h3>
-            <p className="text-sm text-gray-600 mt-2">Step-by-step guides covering everything from AI freelancing to passive income building to investing with AI.</p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 my-6">
+          <div className="bg-primary-50 dark:bg-gray-900 rounded-xl p-5 border border-primary-100 dark:border-gray-800">
+            <h3 className="font-bold text-primary-800 dark:text-primary-400">📚 Guides</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">12 deep-dive guides covering AI freelancing, passive income, investing, tax strategy, and more.</p>
           </div>
-          <div className="bg-accent-50 rounded-xl p-5 border border-accent-100">
-            <h3 className="font-bold text-accent-800">🔧 Tools</h3>
-            <p className="text-sm text-gray-600 mt-2">Interactive calculators and planners — freedom number, savings rate, compound interest, freelance rates, and more.</p>
+          <div className="bg-accent-50 dark:bg-gray-900 rounded-xl p-5 border border-accent-100 dark:border-gray-800">
+            <h3 className="font-bold text-accent-800 dark:text-accent-400">🔧 Tools</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">16 interactive calculators, assessments, planners, and generators.</p>
           </div>
-          <div className="bg-gold-50 rounded-xl p-5 border border-gold-100">
-            <h3 className="font-bold text-gold-800">🌐 Resources</h3>
-            <p className="text-sm text-gray-600 mt-2">Curated library of 60+ tools, platforms, courses, and communities organized by category.</p>
+          <div className="bg-gold-50 dark:bg-gray-900 rounded-xl p-5 border border-gold-100 dark:border-gray-800">
+            <h3 className="font-bold text-gold-800 dark:text-gold-400">🌐 Resources</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Curated library of 160+ tools, platforms, courses, and communities.</p>
           </div>
-          <div className="bg-purple-50 rounded-xl p-5 border border-purple-100">
-            <h3 className="font-bold text-purple-800">🔬 Research</h3>
-            <p className="text-sm text-gray-600 mt-2">Data-driven analysis of markets, income streams, AI tools, and opportunities.</p>
+          <div className="bg-purple-50 dark:bg-gray-900 rounded-xl p-5 border border-purple-100 dark:border-gray-800">
+            <h3 className="font-bold text-purple-800 dark:text-purple-400">🔬 Research</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">9 data-driven research reports on markets, income, and AI trends.</p>
           </div>
-          <div className="bg-blue-50 rounded-xl p-5 border border-blue-100">
-            <h3 className="font-bold text-blue-800">📋 Templates</h3>
-            <p className="text-sm text-gray-600 mt-2">Ready-to-use templates for proposals, business plans, content calendars, and automation workflows.</p>
+          <div className="bg-blue-50 dark:bg-gray-900 rounded-xl p-5 border border-blue-100 dark:border-gray-800">
+            <h3 className="font-bold text-blue-800 dark:text-blue-400">📋 Templates</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">14 ready-to-use templates for business, finance, and productivity.</p>
+          </div>
+          <div className="bg-emerald-50 dark:bg-gray-900 rounded-xl p-5 border border-emerald-100 dark:border-gray-800">
+            <h3 className="font-bold text-emerald-800 dark:text-emerald-400">✅ Checklists</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">8 downloadable checklists for launching, reviewing, and planning.</p>
+          </div>
+          <div className="bg-amber-50 dark:bg-gray-900 rounded-xl p-5 border border-amber-100 dark:border-gray-800">
+            <h3 className="font-bold text-amber-800 dark:text-amber-400">📋 Cheatsheets</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">6 quick-reference guides for prompts, taxes, investing, and content.</p>
+          </div>
+          <div className="bg-rose-50 dark:bg-gray-900 rounded-xl p-5 border border-rose-100 dark:border-gray-800">
+            <h3 className="font-bold text-rose-800 dark:text-rose-400">🗺️ Roadmaps</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">3 visual learning paths from zero to financial independence.</p>
+          </div>
+          <div className="bg-cyan-50 dark:bg-gray-900 rounded-xl p-5 border border-cyan-100 dark:border-gray-800">
+            <h3 className="font-bold text-cyan-800 dark:text-cyan-400">❓ FAQ</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">21 honest answers to the most common questions.</p>
           </div>
         </div>
 
@@ -67,12 +83,14 @@ export default function AboutPage() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4">How to Use This</h2>
         <div className="bg-gray-50 rounded-xl p-6 border">
-          <ol className="list-decimal pl-6 space-y-2 text-gray-600">
+          <ol className="list-decimal pl-6 space-y-2 text-gray-600 dark:text-gray-300">
             <li>Start with <strong>The Blueprint</strong> guide for the full framework</li>
+            <li>Take the <strong>AI Skills Assessment</strong> to find your strengths</li>
             <li>Use the <strong>Freedom Calculator</strong> to find your number</li>
+            <li>Follow a <strong>Roadmap</strong> that matches your starting point</li>
             <li>Explore the <strong>Resource Library</strong> for tools to use today</li>
             <li>Read the <strong>Research</strong> for data-driven insights</li>
-            <li>Grab <strong>Templates</strong> to execute faster</li>
+            <li>Grab <strong>Templates & Checklists</strong> to execute faster</li>
             <li>Take action. Every day.</li>
           </ol>
         </div>

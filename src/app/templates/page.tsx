@@ -147,7 +147,7 @@ const templates: Template[] = [
 
 ## Performance Tracking
 | Content | Views | Engagement | Leads | Revenue |
-|---------|-------|------------|-------|---------|
+|---------|-------|------------|-------|----------|
 | | | | | |`,
   },
   {
@@ -331,6 +331,749 @@ Best,
 - Value of time: $[X]/hour
 - Monthly value: $[X]
 - ROI: [X]%`,
+  },
+  {
+    name: "Weekly Review & Reflection Template",
+    description: "Structured weekly review for tracking progress, wins, lessons, and next week's priorities.",
+    category: "Productivity",
+    icon: "🔄",
+    content: `# Weekly Review — Week of [Date]
+
+## 🏆 This Week's Wins
+1.
+2.
+3.
+4.
+5.
+
+## 📈 Metrics Review
+| Metric | Target | Actual | Notes |
+|--------|--------|--------|-------|
+| Income | $ | $ | |
+| Expenses | $ | $ | |
+| Savings Rate | % | % | |
+| Hours Worked | | | |
+| Client Projects | | | |
+| Content Published | | | |
+
+## 📝 Lessons Learned
+- What worked well this week?
+  1.
+  2.
+  3.
+
+- What didn't work?
+  1.
+  2.
+
+- What would I do differently?
+  1.
+  2.
+
+## 🎯 Next Week's Top 3 Priorities
+1. [Priority 1 — most impactful]
+2. [Priority 2]
+3. [Priority 3]
+
+## ✅ Habit Tracking
+| Habit | M | T | W | T | F | S | S | Score |
+|-------|---|---|---|---|---|---|---|-------|
+| Exercise | | | | | | | | /7 |
+| Deep Work (2+ hrs) | | | | | | | | /7 |
+| Reading | | | | | | | | /7 |
+| Content Creation | | | | | | | | /7 |
+| Networking | | | | | | | | /7 |
+| Learning/Skill Dev | | | | | | | | /7 |
+
+## ⚡ Energy & Focus Notes
+- Highest energy day: ___
+- Lowest energy day: ___
+- Best focus window: ___
+- Biggest distraction: ___
+- What to protect next week: ___
+
+## 🙏 Gratitude
+- I'm grateful for: ___
+- Something I'm proud of: ___
+- One thing I'm looking forward to: ___`,
+  },
+  {
+    name: "Client Onboarding Questionnaire",
+    description: "Send to new clients to gather project requirements, preferences, and expectations.",
+    category: "Freelancing",
+    icon: "🤝",
+    content: `# Client Onboarding Questionnaire
+
+Thank you for choosing to work together! Please fill this out so I can deliver the best possible results.
+
+---
+
+## 🏢 Business Information
+- **Company Name:**
+- **Industry:**
+- **Website URL:**
+- **Company Size:** (solo / 2-10 / 11-50 / 50+)
+- **Your Role/Title:**
+
+---
+
+## 🎯 Project Overview
+- **Project Name/Description:**
+- **Primary Goal:** (What does success look like?)
+- **Secondary Goals:**
+  1.
+  2.
+- **Target Audience:** (Who is this for?)
+- **Desired Launch/Timeline:**
+- **Budget Range:**
+- **Hard Deadlines:**
+
+---
+
+## 💬 Communication Preferences
+- **Preferred Channels:** (Email / Slack / Zoom / Phone / Other)
+- **Best Time to Reach You:**
+- **Expected Response Time:** (Same day / 24 hrs / 48 hrs)
+- **Meeting Cadence:** (Weekly / Bi-weekly / As needed)
+- **How do you prefer to receive updates?** (Email / Shared doc / Dashboard)
+- **Decision Maker(s):** (Who approves deliverables?)
+
+---
+
+## 🎨 Brand & Style
+- **Existing Brand Guidelines?** (Yes/No — if yes, please share)
+- **Brand Colors:**
+- **Tone of Voice:** (Professional / Casual / Playful / Technical)
+- **Competitors You Admire:**
+  1.
+  2.
+  3.
+- **Competitors You Don't Like & Why:**
+- **References/Inspiration:** (Links to designs, content, or products you like)
+
+---
+
+## 🔧 Technical Requirements
+- **Current Platforms/Tools Used:**
+- **Required Integrations:**
+  1.
+  2.
+- **Technical Constraints:**
+- **Hosting/Deployment Preferences:**
+
+---
+
+## 📊 Success Metrics
+- **How will you measure success?**
+  1.
+  2.
+  3.
+- **Key Performance Indicators (KPIs):**
+  1.
+  2.
+- **3 months post-launch, what would make this a win?**
+
+---
+
+## 📋 Previous Experience
+- **Have you worked with a [freelancer/agency] before?** (Yes/No)
+- **What worked well in past projects?**
+- **What didn't work?**
+- **Anything else I should know?**`,
+  },
+  {
+    name: "Pricing Strategy Worksheet",
+    description: "Calculate your optimal pricing using value-based, competitor, and cost-plus methods.",
+    category: "Business",
+    icon: "💲",
+    content: `# Pricing Strategy Worksheet — [Service/Product Name]
+
+---
+
+## Method 1: Cost-Plus Pricing
+*Calculate your minimum viable rate based on costs.*
+
+### Monthly Business Costs
+| Expense | Monthly Amount |
+|---------|---------------|
+| Software/Tools | $ |
+| Internet/Office | $ |
+| Marketing | $ |
+| Insurance/Taxes | $ |
+| Education/Training | $ |
+| Misc/Buffer | $ |
+| **Total Monthly Costs** | **$** |
+
+### Calculation
+- Total Monthly Costs: $___
+- Desired Monthly Profit: $___
+- Billable Hours/Month: ___
+- **Minimum Hourly Rate:** $___ ÷ ___ = **$___/hr**
+- **Minimum Monthly Retainer:** $___ ÷ ___ clients = **$___/client**
+
+---
+
+## Method 2: Market Rate Analysis
+*What are competitors charging?*
+
+| Competitor | Price Point | What's Included | Their Weakness | Your Differentiation |
+|-----------|-------------|-----------------|---------------|---------------------|
+| Comp 1 | $ | | | |
+| Comp 2 | $ | | | |
+| Comp 3 | $ | | | |
+| Comp 4 | $ | | | |
+| Comp 5 | $ | | | |
+
+### Market Positioning
+- Market Average Price: $___
+- Market Low: $___
+- Market High: $___
+- **Your Recommended Market Price: $___**
+- Positioning: (Budget / Mid-Market / Premium)
+
+---
+
+## Method 3: Value-Based Pricing
+*What is the outcome worth to the client?*
+
+| Client Outcome | Estimated Value | Your Share (10-30%) | Your Price |
+|---------------|----------------|---------------------|------------|
+| Time Saved (hrs × rate) | $ | % = $ | $ |
+| Revenue Generated/Increased | $ | % = $ | $ |
+| Cost Reduced | $ | % = $ | $ |
+| Risk Mitigated | $ | % = $ | $ |
+| **Total Value Delivered** | **$** | | **$** |
+
+### Value Proposition Statement
+"I help [target client] achieve [outcome worth $X] by [your unique method], so they can [ultimate benefit]."
+
+---
+
+## 🎯 Final Pricing Recommendation
+| Method | Suggested Price |
+|--------|----------------|
+| Cost-Plus Minimum | $ |
+| Market Rate | $ |
+| Value-Based | $ |
+
+### My Recommended Price: $___
+**Rationale:** [Why this price? How does it compare across all 3 methods?]
+
+### Pricing Tiers (Optional)
+| Tier | Price | Includes |
+|------|-------|----------|
+| Basic | $ | |
+| Standard | $ | |
+| Premium | $ | |`,
+  },
+  {
+    name: "AI Workflow Quick Start Guide",
+    description: "Template for documenting and sharing your AI-powered workflows with team or clients.",
+    category: "Automation",
+    icon: "⚡",
+    content: `# AI Workflow Quick Start Guide
+
+## 📋 Workflow Overview
+- **Workflow Name:**
+- **Objective:** [One sentence describing what this workflow accomplishes]
+- **Created By:**
+- **Last Updated:**
+- **Difficulty Level:** (Beginner / Intermediate / Advanced)
+
+---
+
+## 🛠️ Tools Used
+| Tool | Purpose | Cost/Month | Link |
+|------|---------|------------|------|
+| | | $ | |
+| | | $ | |
+| | | $ | |
+| **Total Monthly Cost** | | **$** | |
+
+---
+
+## 📝 Step-by-Step Instructions
+
+### Step 1: [Action Name]
+- **What to do:**
+- **AI Prompt (if applicable):**
+  \`\`\`
+  [Paste your prompt here]
+  \`\`\`
+- **Expected Output:**
+- **Time:** ~[X] minutes
+
+### Step 2: [Action Name]
+- **What to do:**
+- **AI Prompt (if applicable):**
+  \`\`\`
+  [Paste your prompt here]
+  \`\`\`
+- **Expected Output:**
+- **Time:** ~[X] minutes
+
+### Step 3: [Action Name]
+- **What to do:**
+- **AI Prompt (if applicable):**
+  \`\`\`
+  [Paste your prompt here]
+  \`\`\`
+- **Expected Output:**
+- **Time:** ~[X] minutes
+
+### Step 4: [Action Name]
+- **What to do:**
+- **AI Prompt (if applicable):**
+  \`\`\`
+  [Paste your prompt here]
+  \`\`\`
+- **Expected Output:**
+- **Time:** ~[X] minutes
+
+---
+
+## ✅ Quality Control Checkpoints
+- [ ] After Step 1: [What to verify]
+- [ ] After Step 2: [What to verify]
+- [ ] After Step 3: [What to verify]
+- [ ] Final Review: [What to verify before delivering/using output]
+
+---
+
+## ⏱️ Time Comparison
+| Metric | Without AI | With AI | Savings |
+|--------|-----------|---------|---------|
+| Time per task | | | |
+| Tasks per week | | | |
+| Hours saved/week | | | |
+| Monthly hours saved | | | |
+
+---
+
+## 💡 Tips & Variations
+- **Pro Tip 1:**
+- **Pro Tip 2:**
+- **Variation A:** [How to adapt for different use case]
+- **Variation B:** [How to adapt for different use case]
+- **Common Mistakes to Avoid:**
+  1.
+  2.`,
+  },
+  {
+    name: "Networking & Relationship CRM",
+    description: "Track your professional relationships, follow-ups, and opportunities.",
+    category: "Business",
+    icon: "👥",
+    content: `# Networking & Relationship CRM
+
+---
+
+## 📇 Contact Database
+| Name | Platform | How We Met | Last Contact | Follow-Up Date | Notes | Opportunity Type |
+|------|----------|-----------|-------------|---------------|-------|----------------|
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+
+*Opportunity Types: Collaboration, Client, Referral, Mentorship, Joint Venture, Other*
+
+---
+
+## 📅 Follow-Up Schedule
+| Timeline | Action | Template |
+|----------|--------|----------|
+| **1 Day** | Send a thank-you message | "Great meeting you! I enjoyed our conversation about [topic]. Let's stay in touch." |
+| **1 Week** | Share something valuable | "Saw this and thought of you: [resource/link]. Hope it helps with [their challenge]." |
+| **1 Month** | Check in + offer value | "How's [project] going? I recently [accomplished something] and thought you might find it useful." |
+| **3 Months** | Re-engage if needed | "It's been a while! I've been working on [new thing] and would love your perspective." |
+
+---
+
+## ✉️ Value-First Outreach Template
+
+Subject: [Something specific about them] + [value you can add]
+
+Hi [Name],
+
+I came across your work on [platform/project] and was really impressed by [specific thing].
+
+I recently [created/found/learned] something related to [their area of interest]:
+- [Resource/insight 1]
+- [Resource/insight 2]
+
+Thought you might find it useful. No reply needed — just wanted to share!
+
+Best,
+[Your Name]
+
+---
+
+## 📝 Meeting Notes Template
+- **Date:**
+- **Person:**
+- **Context:** (How/where we connected)
+- **Key Topics Discussed:**
+  1.
+  2.
+- **Their Current Challenges:**
+- **How I Can Help:**
+- **How They Can Help Me:**
+- **Action Items:**
+  - [ ] Me:
+  - [ ] Them:
+- **Next Follow-Up:** [Date]
+
+---
+
+## 🔄 Relationship Stages
+| Stage | Description | Action to Advance |
+|--------|-------------|-------------------|
+| 👤 Stranger | No interaction yet | Make initial contact |
+| 👋 Acquaintance | Exchanged info once | Follow up within a week |
+| 💬 Connection | Had a real conversation | Find ways to add value |
+| 🤝 Ally | Reciprocal value exchange | Collaborate on something small |
+| ⭐ Advocate | They refer/promote you | Deepen the relationship, reciprocate |
+
+---
+
+## 📊 Monthly Relationship Review
+- **New connections this month:** ___
+- **Follow-ups completed:** ___
+- **Meetings/calls:** ___
+- **Referrals given:** ___
+- **Referrals received:** ___
+- **Strongest new relationship:** ___
+- **Relationships to nurture next month:**
+  1.
+  2.
+  3.`,
+  },
+  {
+    name: "Emergency Fund & Safety Net Planner",
+    description: "Plan your financial safety net with emergency fund, insurance, and backup income.",
+    category: "Finance",
+    icon: "🛡️",
+    content: `# Emergency Fund & Safety Net Planner
+
+---
+
+## 💰 Emergency Fund Calculator
+
+### Monthly Essential Expenses
+| Expense | Amount |
+|---------|--------|
+| Rent/Mortgage | $ |
+| Utilities | $ |
+| Food/Groceries | $ |
+| Transportation | $ |
+| Insurance | $ |
+| Minimum Debt Payments | $ |
+| Phone/Internet | $ |
+| Other Essentials | $ |
+| **Total Monthly Expenses** | **$** |
+
+### Fund Target
+| Metric | Amount |
+|--------|--------|
+| Monthly Expenses × 6 months = Target | $ |
+| Current Emergency Savings | $ |
+| **Gap to Fill** | **$** |
+| Monthly Contribution | $ |
+| **Months to Reach Goal** | **$gap ÷ $contribution = ___** |
+| Account Type: | (HYSA / Money Market / Both) |
+| Current APY: | % |
+
+---
+
+## 🏥 Insurance Audit
+| Insurance Type | Provider | Monthly Cost | Coverage Amount | Deductible | Expiry/Renewal | Adequate? |
+|--------------|----------|-------------|----------------|------------|----------------|-----------|
+| Health | | $ | $ | $ | | ✅/❌ |
+| Liability (Business) | | $ | $ | $ | | ✅/❌ |
+| Disability | | $ | $ | $ | | ✅/❌ |
+| Life | | $ | $ | $ | | ✅/❌ |
+| Business/Professional | | $ | $ | $ | | ✅/❌ |
+| **Total Monthly Premiums** | | **$** | | | | |
+
+---
+
+## 💸 Backup Income Streams
+*If your main income disappeared tomorrow, what could you fall back on?*
+
+| Stream | Monthly Potential | Setup Time | Current Status | Next Action |
+|--------|-----------------|-------------|---------------|-------------|
+| Freelance (current skills) | $ | — | Active | |
+| Consulting/Coaching | $ | weeks | Not started | |
+| Digital Products | $ | weeks | Not started | |
+| Affiliate Income | $ | days | Not started | |
+| Part-time/Temp Work | $ | days | Available | |
+| Gig Economy | $ | days | Available | |
+| **Total Backup Potential** | **$** | | | |
+
+---
+
+## 📞 Emergency Contacts & Accounts
+| Category | Details |
+|----------|----------|
+| Emergency Fund Bank | Bank: ___, Account: ___, Routing: ___ |
+| Secondary Bank Account | Bank: ___, Account: ___, Routing: ___ |
+| Credit Card (Backup) | Issuer: ___, Limit: $___ |
+| Line of Credit | Provider: ___, Limit: $___ |
+| Insurance Agent | Name: ___, Phone: ___ |
+| Accountant/CPA | Name: ___, Phone: ___ |
+| Attorney | Name: ___, Phone: ___ |
+| Financial Advisor | Name: ___, Phone: ___ |
+
+---
+
+## 🧪 Financial Stress Test
+*Can you survive these scenarios?*
+
+| Scenario | Survive? | For How Long? | What Would You Do? |
+|----------|----------|--------------|-------------------|
+| 50% income cut | ✅/❌ | ___ months | |
+| 100% income loss | ✅/❌ | ___ months | |
+| $5K unexpected medical bill | ✅/❌ | | |
+| Major client leaves | ✅/❌ | | |
+| Economy recession (6 months) | ✅/❌ | ___ months | |`,
+  },
+  {
+    name: "Product Launch Checklist & Timeline",
+    description: "Complete launch plan for any digital product with week-by-week timeline.",
+    category: "Business",
+    icon: "🚀",
+    content: `# Product Launch Checklist & Timeline
+
+## 📋 Product Details
+- **Product Name:**
+- **Type:** (Course / Ebook / Software / Template / Service / Community)
+- **Price:** $
+- **Launch Date:**
+- **Target Revenue:** $
+
+---
+
+## Week 1: Finalize & Set Up
+| Day | Task | Status | Notes |
+|-----|------|--------|-------|
+| Mon | Finalize product content/files | ⬜ | |
+| Tue | Set up payment processor (Stripe/PayPal/Gumroad) | ⬜ | |
+| Wed | Create product landing page | ⬜ | |
+| Thu | Set up email list/tagging for launch | ⬜ | |
+| Fri | Write product description & copy | ⬜ | |
+| Sat | Create product mockups/visuals | ⬜ | |
+| Sun | Review everything, fix issues | ⬜ | |
+
+## Week 2: Marketing Assets
+| Day | Task | Status | Notes |
+|-----|------|--------|-------|
+| Mon | Write launch email sequence (5 emails) | ⬜ | |
+| Tue | Create social media graphics (5-10 pieces) | ⬜ | |
+| Wed | Record promo video/trailer | ⬜ | |
+| Thu | Write blog post announcing the product | ⬜ | |
+| Fri | Create affiliate/partner promo materials | ⬜ | |
+| Sat | Gather testimonials & case studies | ⬜ | |
+| Sun | Review & polish all marketing assets | ⬜ | |
+
+## Week 3: Beta Testing
+| Day | Task | Status | Notes |
+|-----|------|--------|-------|
+| Mon | Send to 5-10 beta testers | ⬜ | |
+| Tue | Collect feedback form responses | ⬜ | |
+| Wed | Fix critical bugs/issues | ⬜ | |
+| Thu | Gather testimonials from testers | ⬜ | |
+| Fri | Update product based on feedback | ⬜ | |
+| Sat | Final QA pass | ⬜ | |
+| Sun | Prepare all final files & access | ⬜ | |
+
+## Week 4: Pre-Launch (Build Anticipation)
+| Day | Task | Status | Notes |
+|-----|------|--------|-------|
+| Mon | Open waitlist / early access registration | ⬜ | |
+| Tue | Send Email 1: Teaser + what's coming | ⬜ | |
+| Wed | Share behind-the-scenes content on social | ⬜ | |
+| Thu | Send Email 2: Problem this product solves | ⬜ | |
+| Fri | Go live with landing page (collecting emails) | ⬜ | |
+| Sat | Social proof: share testimonials/preview | ⬜ | |
+| Sun | Send Email 3: Sneak peek + early bird offer | ⬜ | |
+
+## Week 5: 🎉 LAUNCH WEEK
+| Day | Task | Status | Notes |
+|-----|------|--------|-------|
+| Mon | **LAUNCH DAY** — Send Email 4: It's live! | ⬜ | |
+| | Post on all social platforms | ⬜ | |
+| | Message affiliates & partners | ⬜ | |
+| Tue | Share social proof (screenshots, testimonials) | ⬜ | |
+| Wed | Send Email 5: Q&A + address objections | ⬜ | |
+| | Live Q&A or AMA if applicable | ⬜ | |
+| Thu | Share bonus/stack offer | ⬜ | |
+| Fri | Last chance reminder + urgency | ⬜ | |
+| Sat | Close cart (if limited) or transition to evergreen | ⬜ | |
+| Sun | Rest + review initial results | ⬜ | |
+
+## Week 6: Post-Launch
+| Day | Task | Status | Notes |
+|-----|------|--------|-------|
+| Mon | Calculate total launch revenue | ⬜ | |
+| Tue | Send post-launch survey to buyers | ⬜ | |
+| Wed | Analyze: conversion rate, traffic sources, best channel | ⬜ | |
+| Thu | Collect & organize testimonials | ⬜ | |
+| Fri | Plan v2 improvements based on feedback | ⬜ | |
+| Sat | Set up evergreen sales funnel | ⬜ | |
+| Sun | Celebrate & document learnings! | ⬜ | |
+
+---
+
+## 📊 Launch Metrics
+| Metric | Target | Actual |
+|--------|--------|--------|
+| Email list size at launch | | |
+| Landing page visits | | |
+| Conversion rate | | |
+| Total revenue | | |
+| Units sold | | |
+| Refunds | | |
+| Net revenue | | |`,
+  },
+  {
+    name: "Annual Financial Planning Review",
+    description: "Comprehensive year-end financial review and next-year planning template.",
+    category: "Finance",
+    icon: "📊",
+    content: `# Annual Financial Planning Review — [Year]
+
+---
+
+## 💵 Income Summary
+
+### Income by Source
+| Source | Q1 | Q2 | Q3 | Q4 | Total | % of Total |
+|--------|----|----|----|----|-------|-----------|
+| Freelance/Client Work | $ | $ | $ | $ | $ | % |
+| Product Sales | $ | $ | $ | $ | $ | % |
+| Affiliate/Passive | $ | $ | $ | $ | $ | % |
+| Investments | $ | $ | $ | $ | $ | % |
+| Other | $ | $ | $ | $ | $ | % |
+| **Total Income** | **$** | **$** | **$** | **$** | **$** | **100%** |
+
+### Income Trend
+- Highest income month: ___ ($___)
+- Lowest income month: ___ ($___)
+- Average monthly income: $___
+- Year-over-year growth: ___%
+
+---
+
+## 💳 Expense Review
+
+### Expenses by Category
+| Category | Budget | Actual | Over/Under | % of Income |
+|----------|--------|--------|------------|-------------|
+| Housing | $ | $ | $ | % |
+| Food & Dining | $ | $ | $ | % |
+| Transportation | $ | $ | $ | % |
+| Software & Tools | $ | $ | $ | % |
+| Marketing | $ | $ | $ | % |
+| Insurance | $ | $ | $ | % |
+| Education | $ | $ | $ | % |
+| Entertainment | $ | $ | $ | % |
+| Health & Fitness | $ | $ | $ | % |
+| Taxes | $ | $ | $ | % |
+| Miscellaneous | $ | $ | $ | % |
+| **Total Expenses** | **$** | **$** | **$** | **%** |
+
+---
+
+## 📈 Net Worth Progress
+| Metric | Start of Year | End of Year | Change |
+|--------|-------------|------------|--------|
+| Cash & Savings | $ | $ | $ |
+| Investments | $ | $ | $ |
+| Business Assets | $ | $ | $ |
+| Real Estate | $ | $ | $ |
+| **Total Assets** | **$** | **$** | **$** |
+| All Debts | $ | $ | $ |
+| **Net Worth** | **$** | **$** | **$** |
+
+**Year-over-Year Net Worth Growth: ___%**
+
+---
+
+## 📊 Investment Portfolio Review
+| Asset Class | Target % | Actual % | Returns | Rebalance? |
+|-----------|----------|----------|---------|------------|
+| US Stocks | % | % | % | ✅/❌ |
+| International Stocks | % | % | % | ✅/❌ |
+| Bonds | % | % | % | ✅/❌ |
+| Real Estate (REITs) | % | % | % | ✅/❌ |
+| Crypto / Alternatives | % | % | % | ✅/❌ |
+| Cash | % | % | % | ✅/❌ |
+
+**Total Portfolio Return: ___%**
+
+---
+
+## 🧾 Tax Planning Checklist
+- [ ] Maximize retirement contributions (401k/IRA/Solo 401k)
+- [ ] Harvest tax losses before Dec 31
+- [ ] Make charitable donations
+- [ ] Pay estimated taxes (Q4)
+- [ ] Organize business expense receipts
+- [ ] Schedule meeting with CPA
+- [ ] Review deductions: home office, vehicle, equipment
+- [ ] Contribute to HSA if eligible
+
+---
+
+## 💼 Retirement Contributions
+| Account | Contribution Limit | How Much Contributed | Maxed Out? |
+|----------|-------------------|----------------------|-----------|
+| 401(k) / Solo 401(k) | $ | $ | ✅/❌ |
+| IRA (Traditional/Roth) | $ | $ | ✅/❌ |
+| HSA | $ | $ | ✅/❌ |
+| SEP-IRA | $ | $ | ✅/❌ |
+| **Total Tax-Advantaged** | **$** | **$** | |
+
+---
+
+## 🎯 Goals Progress Review
+| Goal | Target | Actual | Status |
+|------|--------|--------|--------|
+| | $ | $ | ✅/🔄/❌ |
+| | $ | $ | ✅/🔄/❌ |
+| | $ | $ | ✅/🔄/❌ |
+| | % | % | ✅/🔄/❌ |
+
+---
+
+## 📅 Next Year's Financial Goals
+| # | Goal | Specific Number | Monthly Target | Key Action |
+|---|------|----------------|---------------|-------------|
+| 1 | | $ | $ | |
+| 2 | | $ | $ | |
+| 3 | | $ | $ | |
+| 4 | | % | | |
+| 5 | | $ | $ | |
+
+---
+
+## 📋 Next Year's Monthly Budget
+| Category | Monthly Target | Annual Total |
+|----------|---------------|-------------|
+| Housing | $ | $ |
+| Food & Dining | $ | $ |
+| Transportation | $ | $ |
+| Software & Tools | $ | $ |
+| Marketing | $ | $ |
+| Insurance | $ | $ |
+| Savings/Investments | $ | $ |
+| Education | $ | $ |
+| Entertainment | $ | $ |
+| Health & Fitness | $ | $ |
+| Miscellaneous | $ | $ |
+| **Total** | **$** | **$** |`,
   },
 ];
 

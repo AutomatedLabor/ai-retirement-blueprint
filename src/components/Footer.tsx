@@ -15,6 +15,7 @@ export function Footer() {
               <li><Link href="/guides" className="hover:text-white transition-colors">Guides</Link></li>
               <li><Link href="/research" className="hover:text-white transition-colors">Research</Link></li>
               <li><Link href="/resources" className="hover:text-white transition-colors">Resources</Link></li>
+              <li><Link href="/faq" className="hover:text-white transition-colors">FAQ</Link></li>
             </ul>
           </div>
           <div>
@@ -22,11 +23,14 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/tools" className="hover:text-white transition-colors">Tools</Link></li>
               <li><Link href="/templates" className="hover:text-white transition-colors">Templates</Link></li>
+              <li><Link href="/checklists" className="hover:text-white transition-colors">Checklists</Link></li>
+              <li><Link href="/cheatsheets" className="hover:text-white transition-colors">Cheatsheets</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-white font-semibold mb-3">About</h4>
             <ul className="space-y-2 text-sm">
+              <li><Link href="/roadmaps" className="hover:text-white transition-colors">Roadmaps</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">About This Project</Link></li>
             </ul>
           </div>

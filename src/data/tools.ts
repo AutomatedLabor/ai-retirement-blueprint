@@ -19,4 +19,8 @@ export const tools: Tool[] = [
   { slug: "freelance-rate", name: "Freelance Rate Calculator", description: "Calculate your ideal freelance hourly rate based on desired income, expenses, and billable hours.", icon: "💲", category: "Business" },
   { slug: "retirement-timeline", name: "Retirement Timeline Visualizer", description: "See your path to retirement plotted on a timeline. Adjust variables and see the impact.", icon: "📅", category: "Planning" },
   { slug: "income-idea-generator", name: "AI Income Idea Generator", description: "Get personalized income stream ideas based on your skills, interests, and available time.", icon: "💡", category: "Planning" },
+  { slug: "skills-assessment", name: "AI Skills Assessment Quiz", description: "Assess your current AI tool proficiency across Content, Coding, Automation, Strategy, and Design. Get personalized recommendations.", icon: "🧪", category: "Assessment" },
+  { slug: "swot-analyzer", name: "AI Freelance SWOT Analyzer", description: "Generate a visual SWOT matrix specific to your AI freelancing profile based on your skills, experience, and goals.", icon: "🔍", category: "Strategy" },
+  { slug: "financial-health", name: "Financial Health Score", description: "Get a comprehensive 0-100 financial health score with breakdown across savings, debt, emergency fund, investments, and diversification.", icon: "❤️", category: "Finance" },
+  { slug: "goal-planner", name: "90-Day Goal Planner", description: "Set 3 goals with milestones and generate a printable 90-day plan with weekly milestones, habit tracker, and accountability checklist.", icon: "🗓️", category: "Planning" },
 ];
