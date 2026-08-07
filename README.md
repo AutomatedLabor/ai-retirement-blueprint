@@ -6,7 +6,7 @@
 
 ## What's Inside
 
-### 📚 Guides (8 comprehensive guides)
+### 📚 Guides (9 comprehensive guides)
 - **The Blueprint** — Complete framework from zero to financial independence
 - **AI-Powered Freelancing** — 10x your output, command higher rates
 - **Building Passive Income Engines** — Create income that runs 24/7
