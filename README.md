@@ -1,0 +1,118 @@
+# 🚀 AI Retirement Blueprint
+
+> The complete toolkit for achieving financial independence through AI and online work.
+
+**Live Site**: [Deploy on Vercel](#deployment)
+
+## What's Inside
+
+### 📚 Guides (8 comprehensive guides)
+- **The Blueprint** — Complete framework from zero to financial independence
+- **AI-Powered Freelancing** — 10x your output, command higher rates
+- **Building Passive Income Engines** — Create income that runs 24/7
+- **AI-Enhanced Investing** — Smarter financial decisions with AI
+- **The Build-in-Public Playbook** — Build audience + business simultaneously
+- **Prompt Engineering Mastery** — Get 10x results from AI tools
+- **The Ultimate Remote Work Toolkit** — Work from anywhere
+- **The Financial Independence Math** — The actual numbers for FIRE
+
+### 🔧 Interactive Tools (12 tools)
+- Freedom Number Calculator
+- Savings Rate Calculator
+- Compound Interest Visualizer
+- Freelance Rate Calculator
+- AI Income Stream Tracker
+- Expense Optimizer
+- Self-Employment Tax Estimator
+- AI Tool ROI Calculator
+- Prompt Library (copy-paste ready)
+- Side Hustle Scorer
+- Retirement Timeline Visualizer
+- AI Income Idea Generator
+
+### 🌐 Resource Library (60+ curated resources)
+Organized by category: AI Tools, Learning, Freelancing, Business Building, Investing, Productivity, Content Creation, Communities
+
+### 🔬 Research Reports
+- AI Job Displacement & Creation Analysis
+- Freelancing Market in the AI Era
+- Passive Income Streams: Data & Benchmarks
+- Geoarbitrage Guide
+- AI Tools Comparison
+
+### 📋 Templates
+- AI Service Proposal Template
+- Financial Independence Tracker
+- Content Calendar Template
+- Business Plan Template (AI-Era)
+- Cold Outreach Templates
+- AI Workflow Automation Blueprint
+
+## Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel (static export)
+- **TypeScript**: Full type safety
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Deployment
+
+### Vercel (Recommended)
+1. Push this repo to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Import this repository
+4. Deploy — it works out of the box
+
+### Other Platforms
+This project uses `next export` for static generation. The `out/` folder can be deployed anywhere that serves static files (Netlify, Cloudflare Pages, GitHub Pages, etc.).
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── page.tsx              # Homepage
+│   ├── guides/               # Guide pages
+│   │   ├── page.tsx          # Guide listing
+│   │   └── [slug]/page.tsx   # Individual guides
+│   ├── tools/                # Interactive tools
+│   │   ├── page.tsx          # Tools listing
+│   │   └── [slug]/page.tsx   # Individual tools
+│   ├── resources/            # Resource library
+│   ├── research/             # Research reports
+│   │   ├── page.tsx          # Research listing
+│   │   └── [slug]/page.tsx   # Individual reports
+│   ├── templates/            # Template library
+│   └── about/                # About page
+├── components/               # Shared components
+├── data/                     # Content data files
+└── lib/                      # Utilities
+```
+
+## Contributing
+
+This is an open resource. Contributions welcome:
+1. Fork the repo
+2. Add your content (guides, tools, resources, research)
+3. Submit a PR
+
+## License
+
+MIT — use freely, attribution appreciated.
+
+---
+
+*Built with AI. For everyone who dreams of freedom.*
