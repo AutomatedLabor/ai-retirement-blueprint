@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-white font-bold text-lg mb-4">🚀 AI Retirement Blueprint</h3>
-            <p className="text-sm text-gray-400">The complete toolkit for achieving financial independence through AI and online work.</p>
+            <p className="text-sm text-gray-400">The actionable framework for achieving financial independence through AI and online work. Built with AI, for everyone who dreams of freedom.</p>
           </div>
           <div>
             <h4 className="text-white font-semibold mb-3">Learn</h4>

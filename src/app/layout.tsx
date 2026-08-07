@@ -4,9 +4,9 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "AI Retirement Blueprint — Retire Using AI & Online Work",
-  description: "The ultimate resource library for achieving financial independence through AI tools, online income streams, and smart automation. Guides, tools, templates, and research — all in one place.",
-  keywords: ["AI retirement", "financial independence", "online income", "AI tools", "passive income", "remote work", "FIRE movement"],
+  title: "AI Retirement Blueprint — The Actionable Framework for Financial Independence with AI",
+  description: "Step-by-step guides, interactive tools, ready-to-use templates, curated resources, and deep research — everything you need to achieve financial independence using AI tools and online work.",
+  keywords: ["AI retirement", "financial independence", "FIRE movement", "AI tools", "online income", "passive income", "AI freelancing", "digital assets", "smart investing", "remote work", "AI automation"],
   openGraph: {
     title: "AI Retirement Blueprint",
     description: "Retire using AI. The complete toolkit.",
