@@ -48,7 +48,7 @@ export default function AboutPage() {
           </div>
           <div className="bg-purple-50 dark:bg-gray-900 rounded-xl p-5 border border-purple-100 dark:border-gray-800">
             <h3 className="font-bold text-purple-800 dark:text-purple-400">🔬 Research</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">9 data-driven research reports on markets, income, and AI trends.</p>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">12 data-driven research reports on markets, income, and AI trends.</p>
           </div>
           <div className="bg-blue-50 dark:bg-gray-900 rounded-xl p-5 border border-blue-100 dark:border-gray-800">
             <h3 className="font-bold text-blue-800 dark:text-blue-400">📋 Templates</h3>
@@ -145,6 +145,14 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-gray-500 dark:text-gray-400 mt-3">
+            Three recent additions to our research library provide updated 2025-2026 data:
+          </p>
+          <ul className="list-disc pl-5 text-xs text-gray-600 dark:text-gray-300 space-y-1 mt-2">
+            <li><strong>The AI-Powered Freelance Economy: Market Data, Income Benchmarks &amp; Strategic Opportunities 2025-2026</strong> — Updated freelance workforce data, AI adoption rates, and income benchmarks.</li>
+            <li><strong>Geoarbitrage in the AI Age: A Data-Driven Financial Strategy for Location Independence 2025-2026</strong> — Cost-of-living comparisons across 25+ cities with tax implications and location independence analysis.</li>
+            <li><strong>Social Security Optimization &amp; Retirement Account Strategies for AI-Era Workers: A 2025-2026 Guide</strong> — Claiming strategies, gig worker retirement accounts, and tax-efficient withdrawal planning.</li>
+          </ul>
           <p className="text-xs text-gray-500 dark:text-gray-400 mt-4 italic">
             All projections are estimates based on available data and should not be considered financial advice. Individual results depend on effort, market conditions, and personal circumstances. Consult a qualified financial advisor for decisions specific to your situation.
           </p>

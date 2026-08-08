@@ -3,20 +3,18 @@ import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { guides } from "@/data/guides";
 import { tools } from "@/data/tools";
-import { resources } from "@/data/resources";
-import { research } from "@/data/research";
 import { checklists } from "@/data/checklists";
 import { cheatsheets } from "@/data/cheatsheets";
 import { roadmaps } from "@/data/roadmaps";
 import { downloadableResources } from "@/data/downloads";
 
 const stats = [
-  { label: "Guides", value: guides.length.toString(), icon: "📚" },
-  { label: "Interactive Tools", value: tools.length.toString(), icon: "🔧" },
-  { label: "Resources", value: resources.length.toString(), icon: "🌐" },
-  { label: "Research Reports", value: research.length.toString(), icon: "🔬" },
-  { label: "Checklists", value: checklists.length.toString(), icon: "✅" },
-  { label: "Downloads", value: downloadableResources.length.toString(), icon: "📥" },
+  { label: "In-Depth Guides", value: "12", icon: "📚" },
+  { label: "Interactive Tools", value: "16", icon: "🔧" },
+  { label: "Curated Resources", value: "166", icon: "🌐" },
+  { label: "Research Reports", value: "12", icon: "🔬" },
+  { label: "Actionable Checklists", value: "8", icon: "✅" },
+  { label: "Quick-Reference Cheatsheets", value: "6", icon: "📋" },
 ];
 
 export default function Home() {
