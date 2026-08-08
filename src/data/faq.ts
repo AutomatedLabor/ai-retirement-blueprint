@@ -136,4 +136,32 @@ export const faqCategories: FaqCategory[] = [
       },
     ],
   },
+  {
+    id: "lifestyle-mindset",
+    title: "Lifestyle & Mindset",
+    icon: "🧘",
+    color: "gold",
+    items: [
+      {
+        question: "How do I avoid burnout while building an AI business on the side?",
+        answer: "Set hard time boundaries — decide your weekly hours in advance (e.g., 10-15 hours) and treat them as non-negotiable appointments you don't exceed. Follow the 70/30 rule: 70% of your side-project energy goes to productive work, 30% to rest, learning, and life — scheduling rest with the same discipline you schedule work is the key to sustainability. Watch for warning signs like dreading your sessions, declining quality, or irritability — these signal you're in the burnout zone, not the productive hustle zone. Take full weekends off and protect at least one weekday evening completely. This is a marathon, not a sprint; the person who works 12 consistent weeks beats the person who grinds for 3 weeks and disappears.",
+      },
+      {
+        question: "What if my spouse/partner doesn't support this?",
+        answer: "Start by having an honest, data-backed conversation about your goals, the real financial opportunity, and the specific timeline you're committing to. Show them concrete numbers — the income benchmarks, the minimal upfront cost, and real case studies of people like you who've succeeded. Propose a 90-day trial period with measurable milestones (e.g., first client by week 4, $1,000/month by week 8) so it feels like an experiment, not a life upheaval. Emphasize that the financial risk is near-zero when you start with free AI tools and maintain your day job. Often, skepticism turns into enthusiasm once they see your first dollar of AI income land in your account.",
+      },
+      {
+        question: "How do I stay motivated when results are slow?",
+        answer: "Track metrics, not feelings — log your proposals sent, hours invested, and skills practiced daily, because seeing progress in black and white keeps you going when emotions say nothing is working. Celebrate micro-wins relentlessly: your first proposal sent, your first follower gained, your first practice project completed — these small victories build momentum. Find an accountability partner who checks in weekly, and review case studies of people who succeeded through the same slow early phase you're experiencing. Remember the 6-month patience rule: most AI side businesses look like nothing is happening for months, then suddenly click. Trust the process long enough for the process to work.",
+      },
+      {
+        question: "Is it too late to start? AI has been out for years.",
+        answer: "AI adoption is still shockingly early — the majority of small and medium businesses haven't integrated AI into their operations at all, which means the demand for people who can bridge that gap is enormous and growing. The tools themselves keep getting dramatically better every single quarter, meaning your timing is actually better now than it was a year ago because the capabilities have expanded while most of the market still hasn't caught up. Being an early adopter in 2025 still gives you a 3-5 year competitive advantage over the mainstream. The AI services market is growing 35-40% annually, and demand for skilled practitioners far outstrips supply — the door is wide open, not closing.",
+      },
+      {
+        question: "Should I quit my job to do this full-time?",
+        answer: "No — start as a side project while keeping your job's income as your financial safety net. Only consider quitting when your AI income consistently exceeds your job income for 3+ consecutive months, which proves the business is sustainable, not just a lucky streak. The safest transition is gradual, not abrupt — many people reduce their hours or negotiate remote work before fully leaving. Your job income funds your AI education, tools, and early-stage growth, so it's actually an asset in the build phase, not a liability. Some people never quit their job at all and instead use their AI income to reach financial independence faster through extra savings and investment contributions.",
+      },
+    ],
+  },
 ];

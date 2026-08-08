@@ -8,6 +8,7 @@ import { research } from "@/data/research";
 import { checklists } from "@/data/checklists";
 import { cheatsheets } from "@/data/cheatsheets";
 import { roadmaps } from "@/data/roadmaps";
+import { downloadableResources } from "@/data/downloads";
 
 const stats = [
   { label: "Guides", value: guides.length.toString(), icon: "📚" },
@@ -15,7 +16,7 @@ const stats = [
   { label: "Resources", value: resources.length.toString(), icon: "🌐" },
   { label: "Research Reports", value: research.length.toString(), icon: "🔬" },
   { label: "Checklists", value: checklists.length.toString(), icon: "✅" },
-  { label: "Cheatsheets", value: cheatsheets.length.toString(), icon: "📋" },
+  { label: "Downloads", value: downloadableResources.length.toString(), icon: "📥" },
 ];
 
 export default function Home() {
@@ -98,8 +99,8 @@ export default function Home() {
       </Section>
 
       {/* Quick Links - New Sections */}
-      <Section title="New: Actionable Resources" subtitle="Checklists, cheatsheets, roadmaps, and answers to every question" className="bg-gray-50 dark:bg-gray-950">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <Section title="New: Actionable Resources" subtitle="Checklists, cheatsheets, roadmaps, downloads, and answers to every question" className="bg-gray-50 dark:bg-gray-950">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
           <Link href="/checklists" className="bg-white dark:bg-gray-900 rounded-xl p-6 border dark:border-gray-800 card-hover">
             <div className="text-3xl mb-3">✅</div>
             <h3 className="font-bold text-lg">Checklists</h3>
@@ -114,6 +115,11 @@ export default function Home() {
             <div className="text-3xl mb-3">🗺️</div>
             <h3 className="font-bold text-lg">Roadmaps</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{roadmaps.length} step-by-step learning paths from zero to FI</p>
+          </Link>
+          <Link href="/downloads" className="bg-white dark:bg-gray-900 rounded-xl p-6 border dark:border-gray-800 card-hover">
+            <div className="text-3xl mb-3">📥</div>
+            <h3 className="font-bold text-lg">Downloads</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{downloadableResources.length} free templates, guides, and tools to download</p>
           </Link>
           <Link href="/faq" className="bg-white dark:bg-gray-900 rounded-xl p-6 border dark:border-gray-800 card-hover">
             <div className="text-3xl mb-3">❓</div>

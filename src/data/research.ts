@@ -89,7 +89,7 @@ According to multiple studies (McKinsey, WEF, Goldman Sachs), AI will impact 300
 
 ## Market Size & Growth
 
-The global freelancing market is projected to reach $1.5 trillion by 2030, up from $500 billion in 2023. AI is the primary growth driver.
+The global freelancing market is projected to reach $1.5 trillion by 2030, up from $500 billion in 2024. AI is the primary growth driver.
 
 ## The AI Freelancer Advantage
 
@@ -480,7 +480,7 @@ Filing decisions should be informed by actuarial data, not just hope.
 A critical but often overlooked aspect of Social Security timing:
 
 - **Medicare eligibility begins at 65** regardless of when you claim Social Security
-- **If you delay SS past 65**, you should still enroll in Medicare Part A (free) and Part B ($174.70/month in 2024)
+- **If you delay SS past 65**, you should still enroll in Medicare Part A (free) and Part B ($174.70/month in 2025)
 - **IRMAA surcharges**: If your income 2 years ago was high (from AI work), your Medicare Part B and D premiums could be $300-600/month instead of the standard $175
 - **Strategy**: Plan income 2 years before Medicare to avoid IRMAA surcharges by managing Roth conversions and capital gains
 
@@ -531,7 +531,7 @@ A critical but often overlooked aspect of Social Security timing:
 
 Social Security benefits can be taxed — and the tax brackets create a deceptively steep marginal rate.
 
-### Taxation Thresholds (2024-2025)
+### Taxation Thresholds (2025-2026)
 | Filing Status | Combined Income | % of SS Taxed |
 |---------------|----------------|----------------|
 | Single | $25,000-$34,000 | Up to 50% |
@@ -553,7 +553,7 @@ Between the 50% and 85% thresholds, every additional $1 of income makes $0.85 of
 - **Affects**: Workers who have fewer than 30 years of "substantial earnings" in Social Security-covered employment
 - **Impact**: Reduces your SS benefit by up to 50% of the first pension amount
 - **Relevant to AI workers**: If you spent years as a freelancer with no W-2 income, or worked for a foreign employer, WEP may apply
-- **Maximum reduction in 2024**: $615/month
+- **Maximum reduction in 2025**: $615/month
 
 ### Government Pension Offset (GPO)
 - **Affects**: Spousal or survivor benefits if you receive a government pension from non-SS work
@@ -569,7 +569,7 @@ If you want to delay Social Security to 70, you need income to bridge the 8-year
 |--------|--------|-------|
 | Taxable brokerage | $50k-200k | Most flexible, capital gains tax rates |
 | Roth IRA contributions | Up to $7,000/yr | Tax-free withdrawals of contributions |
-| HSA | Up to $4,150/yr (2024) | Tax-free for medical expenses |
+| HSA | Up to $4,150/yr (2025) | Tax-free for medical expenses |
 | Part-time AI work | $2k-10k/mo | Reduces bridge needed, keeps skills sharp |
 | Cash/savings | Variable | Emergency fund, lowest return |
 
@@ -586,7 +586,7 @@ The "Roth conversion ladder" is a powerful strategy for early retirees:
 
 ### Earnings Test (Before FRA)
 If you claim Social Security before your FRA and continue working:
-- **2024 limit**: $22,320/year ($1,860/month)
+- **2025 limit**: $22,320/year ($1,860/month)
 - **Penalty**: $1 in benefits withheld for every $2 earned above the limit
 - **After FRA**: No earnings test — earn as much as you want with no benefit reduction
 
@@ -597,7 +597,7 @@ If you claim Social Security before your FRA and continue working:
 
 ### Self-Employment Tax on AI Income
 - **15.3% self-employment tax** on net earnings (12.4% SS + 2.9% Medicare)
-- **Only applies to net earnings up to $168,600** (2024 SS wage base)
+- **Only applies to net earnings up to $168,600** (2025 SS wage base)
 - **Additional 0.9% Medicare** on earnings over $200,000
 - **Strategy**: Maximizing your Schedule C deductions (home office, equipment, AI tools) reduces both income and SE tax
 
@@ -848,9 +848,9 @@ Remote work has evolved from a pandemic-era accommodation to a permanent structu
 | 2020 | 580 million | 35% |
 | 2021 | 520 million | 30% |
 | 2022 | 480 million | 28% |
-| 2023 | 620 million | 33% |
-| 2024 | 700 million | 35% |
-| 2025 (est.) | 780 million | 38% |
+| 2024 | 620 million | 33% |
+| 2025 (est.) | 700 million | 35% |
+| 2026 (est.) | 780 million | 38% |
 | 2030 (proj.) | 1.2 billion | 55% |
 
 ## Digital Nomad Visa Programs
@@ -875,10 +875,10 @@ As of 2025, **over 50 countries** offer dedicated digital nomad visas, with more
 - **2020**: 5 countries
 - **2021**: 12 countries
 - **2022**: 25 countries
-- **2023**: 38 countries
-- **2024**: 49 countries
-- **2025**: 54+ countries
-- **2026 (projected)**: 65+ countries
+- **2024**: 38 countries
+- **2025**: 49 countries
+- **2026**: 54+ countries
+- **2027 (projected)**: 65+ countries
 
 ## Income Data for Remote Workers
 
@@ -1043,10 +1043,10 @@ With proper planning, a self-employed AI worker earning $150,000/year could save
 
 | Feature | Solo 401(k) | SEP IRA | Roth IRA | Traditional IRA |
 |---------|-----------|---------|----------|---------------|
-| 2024 Contribution Limit | Up to $69,000 | Up to $69,000 | $7,000 ($8,000 if 50+) | $7,000 ($8,000 if 50+) |
-| 2025 Contribution Limit | Up to $70,000 | Up to $70,000 | $7,000 ($8,000 if 50+) | $7,000 ($8,000 if 50+) |
+| 2025 Contribution Limit | Up to $69,000 | Up to $69,000 | $7,000 ($8,000 if 50+) | $7,000 ($8,000 if 50+) |
+| 2026 Contribution Limit | Up to $70,000 | Up to $70,000 | $7,000 ($8,000 if 50+) | $7,000 ($8,000 if 50+) |
 | Tax Treatment | Pre-tax (Traditional) or Roth | Pre-tax | Post-tax (tax-free growth) | Pre-tax |
-| Income Limit | None | None | $161,000-$171,000 (2024) | None (but deductibility phases out) |
+| Income Limit | None | None | $161,000-$171,000 (2025) | None (but deductibility phases out) |
 | Required Minimum Distributions | Age 73+ | Age 73+ | None | Age 73+ |
 | Loan Provision | Yes (up to $50,000) | No | No | No |
 | Roth Option | Yes (Roth Solo 401k) | No | Yes (by definition) | No (use Backdoor) |
@@ -1074,8 +1074,8 @@ For a self-employed AI worker with $150,000 in net self-employment income:
 - Subject to income limits
 - Can contribute via Backdoor Roth if over limits
 
-### Contribution Limits Summary Table (2024-2025)
-| Account | 2024 Limit | 2025 Limit | Age 50+ (2024) | Age 50+ (2025) |
+### Contribution Limits Summary Table (2025-2026)
+| Account | 2025 Limit | 2026 Limit | Age 50+ (2025) | Age 50+ (2026) |
 |---------|-----------|-----------|---------------|---------------|
 | Solo 401(k) | $69,000 | $70,000 | $76,500 | $77,500 |
 | SEP IRA | $69,000 | $70,000 | $69,000 | $70,000 |
@@ -1087,7 +1087,7 @@ For a self-employed AI worker with $150,000 in net self-employment income:
 ## The Backdoor Roth IRA
 
 ### What It Is
-A legal strategy to contribute to a Roth IRA even if your income exceeds the direct contribution limits ($161,000-$171,000 for single filers in 2024).
+A legal strategy to contribute to a Roth IRA even if your income exceeds the direct contribution limits ($161,000-$171,000 for single filers in 2025).
 
 ### How It Works
 1. **Contribute** $7,000 to a Traditional IRA (no income limit for contributions)
@@ -1144,8 +1144,8 @@ After age 65, HSA withdrawals for non-medical expenses are taxed as ordinary inc
 | Pre-65 withdrawals | Reimburse yourself for accumulated medical receipts (tax-free) |
 | Age 65+ | Use like a Traditional IRA with bonus medical tax-free withdrawals |
 
-### 2024-2025 HSA Limits
-| | 2024 | 2025 |
+### 2025-2026 HSA Limits
+| | 2025 | 2026 |
 |--|------|------|
 | Individual | $4,150 | $4,300 |
 | Family | $8,300 | $8,550 |
@@ -1229,9 +1229,9 @@ In early retirement years:
 ## Required Minimum Distributions (RMDs)
 
 ### Key Rules (SECURE 2.0 Act Changes)
-- **Age for RMDs**: Increased from 72 to 73 (2023), rising to 75 in 2033
+- **Age for RMDs**: Increased from 72 to 73 (2024), rising to 75 in 2033
 - **Penalty for missing RMD**: Reduced from 50% to 25% (10% if corrected timely)
-- **Roth 401(k)**: No longer requires RMDs starting in 2024
+- **Roth 401(k)**: No longer requires RMDs starting in 2025
 - **Roth IRA**: Still no RMDs (never did)
 
 ### RMD Calculation
@@ -1241,7 +1241,7 @@ In early retirement years:
 
 ### Strategies to Minimize RMD Impact
 1. **Roth conversions before RMD age** — reduce Traditional account balance
-2. **Qualified Charitable Distributions (QCDs)** — give up to $105,000 (2024) directly from IRA to charity (counts toward RMD, not taxable)
+2. **Qualified Charitable Distributions (QCDs)** — give up to $105,000 (2025) directly from IRA to charity (counts toward RMD, not taxable)
 3. **Spend down Traditional accounts** in early retirement years
 4. **Consider a Roth 401(k)** instead of Traditional — no RMDs
 
@@ -1262,8 +1262,8 @@ In early retirement years:
 - **Trust as beneficiary**: Useful for minor children or if you want to control distributions
 - **Charity as beneficiary**: No income tax on distributions to qualified charities
 
-### Key Estate Tax Thresholds (2024-2025)
-| | 2024 | 2025 |
+### Key Estate Tax Thresholds (2025-2026)
+| | 2025 | 2026 |
 |--|------|------|
 | Federal estate tax exemption | $13.61 million | ~$13.99 million |
 | Annual gift tax exclusion | $18,000 | $19,000 |
@@ -1278,7 +1278,7 @@ In early retirement years:
 - [ ] Open an **HSA** if you have a high-deductible health plan
 - [ ] Set up **automatic contributions** for at least the employee portion of 401(k)
 - [ ] Verify **beneficiary designations** on all accounts
-- [ ] If over Roth IRA income limits, set up **Backdoor Roth** for 2024/2025
+- [ ] If over Roth IRA income limits, set up **Backdoor Roth** for 2025/2026
 
 ### Annual Actions
 - [ ] Max out **HSA** contribution in January (invest immediately)

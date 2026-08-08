@@ -78,7 +78,7 @@ export const cheatsheets: Cheatsheet[] = [
         ],
       },
       {
-        heading: "Benchmarks by Niche (2024-2025)",
+        heading: "Benchmarks by Niche (2025-2026)",
         items: [
           { title: "AI Content Writing", content: "$50-150/hr or $500-5,000/project depending on length and research depth." },
           { title: "Chatbot / AI Automation", content: "$75-200/hr or $2,000-15,000/project based on complexity and integrations." },
@@ -110,7 +110,7 @@ export const cheatsheets: Cheatsheet[] = [
   {
     id: "tax-deduction-reference",
     title: "Tax Deduction Reference",
-    description: "Every major self-employment deduction with 2024-2025 limits so you keep more of what you earn.",
+    description: "Every major self-employment deduction with 2025-2026 limits so you keep more of what you earn.",
     icon: "📋",
     color: "accent",
     sections: [
@@ -125,7 +125,7 @@ export const cheatsheets: Cheatsheet[] = [
       {
         heading: "Vehicle Expenses",
         items: [
-          { title: "Standard Mileage Rate (2024)", content: "67 cents/mile for business use. Track total business miles driven." },
+          { title: "Standard Mileage Rate (2025)", content: "67 cents/mile for business use. Track total business miles driven." },
           { title: "Standard Mileage Rate (2025)", content: "70 cents/mile for business use. Always use the current year's rate." },
           { title: "Actual Expense Method", content: "Deduct gas, insurance, repairs, registration, depreciation, prorated by business-use percentage. Log business vs. total miles." },
         ],
@@ -133,7 +133,7 @@ export const cheatsheets: Cheatsheet[] = [
       {
         heading: "Equipment & Supplies",
         items: [
-          { title: "Section 179 Deduction", content: "Deduct full cost of business equipment up to $1,220,000 (2024) in the year purchased. Covers computers, cameras, furniture, software." },
+          { title: "Section 179 Deduction", content: "Deduct full cost of business equipment up to $1,220,000 (2025) in the year purchased. Covers computers, cameras, furniture, software." },
           { title: "De Minimis Safe Harbor", content: "Items under $2,500 can be fully deducted in the year purchased instead of depreciated." },
           { title: "Software & Subscriptions", content: "Fully deductible: ChatGPT Plus, Adobe CC, hosting, domain names, Canva Pro, CRM tools." },
         ],
@@ -142,17 +142,17 @@ export const cheatsheets: Cheatsheet[] = [
         heading: "Travel & Meals",
         items: [
           { title: "Business Travel", content: "Flights, hotels, rideshares, and 50% of meals while traveling for business are deductible." },
-          { title: "Meal Deduction (2024-2025)", content: "50% of the cost of business meals is deductible. Keep receipts and note business purpose and attendees." },
+          { title: "Meal Deduction (2025-2026)", content: "50% of the cost of business meals is deductible. Keep receipts and note business purpose and attendees." },
           { title: "Conference Deduction", content: "Registration, travel, and lodging for industry conferences and workshops are fully deductible." },
         ],
       },
       {
         heading: "Retirement Account Contributions",
         items: [
-          { title: "Solo 401(k) (2024)", content: "Up to $23,000 employee contribution + 25% of net self-employment earnings (max $69,000 total)." },
+          { title: "Solo 401(k) (2025)", content: "Up to $23,000 employee contribution + 25% of net self-employment earnings (max $69,000 total)." },
           { title: "Solo 401(k) (2025)", content: "Up to $23,500 employee contribution + 25% of net self-employment earnings (max $70,000 total)." },
-          { title: "SEP-IRA", content: "Up to 25% of net self-employment earnings, max $69,000 (2024) / $70,000 (2025). Simpler to set up than Solo 401(k)." },
-          { title: "Traditional/Roth IRA", content: "$7,000 (2024) / $7,000 (2025) if under 50, or $8,000 if 50+ with catch-up. Deductible depending on income." },
+          { title: "SEP-IRA", content: "Up to 25% of net self-employment earnings, max $69,000 (2025) / $70,000 (2026). Simpler to set up than Solo 401(k)." },
+          { title: "Traditional/Roth IRA", content: "$7,000 (2025) / $7,000 (2026) if under 50, or $8,000 if 50+ with catch-up. Deductible depending on income." },
         ],
       },
       {

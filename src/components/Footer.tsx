@@ -25,6 +25,7 @@ export function Footer() {
               <li><Link href="/templates" className="hover:text-white transition-colors">Templates</Link></li>
               <li><Link href="/checklists" className="hover:text-white transition-colors">Checklists</Link></li>
               <li><Link href="/cheatsheets" className="hover:text-white transition-colors">Cheatsheets</Link></li>
+              <li><Link href="/downloads" className="hover:text-white transition-colors">Downloads</Link></li>
             </ul>
           </div>
           <div>

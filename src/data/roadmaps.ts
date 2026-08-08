@@ -6,6 +6,8 @@ export interface RoadmapStep {
   week?: string;
   phase?: string;
   target?: string;
+  kpis?: string;
+  stuck?: string;
 }
 
 export interface Roadmap {
@@ -33,6 +35,8 @@ export const roadmaps: Roadmap[] = [
         description: "Research AI-augmented services with the highest demand and lowest barrier to entry. Focus on skills that leverage AI to deliver 5-10x faster than traditional methods.",
         tools: ["ChatGPT", "Google Trends", "Upwork", "Fiverr Explore"],
         outcome: "Identify 2-3 viable AI service offerings and pick your primary focus.",
+        kpis: "Identify 10+ AI services, evaluate 3 by demand/competition/your fit. Choose 1 primary service by end of Week 2.",
+        stuck: "If you can't decide, pick AI content writing — it has the lowest barrier and fastest time to first dollar. You can always pivot later once you have client momentum.",
       },
       {
         week: "Week 2-3",
@@ -40,6 +44,8 @@ export const roadmaps: Roadmap[] = [
         description: "Spend 2-3 hours daily learning your primary AI tool(s). Practice with real projects, not tutorials. Learn prompt engineering basics and build a personal prompt library.",
         tools: ["ChatGPT/Claude", "YouTube Tutorials", "Prompt libraries"],
         outcome: "Complete 10 practice projects and build a prompt library of 50+ proven prompts.",
+        kpis: "50+ prompts saved in your library. 10 practice projects completed. Consistently produce client-quality output in under 30 minutes per task.",
+        stuck: "If you feel overwhelmed by tool choices, stick to just ChatGPT and one niche tool. Depth with 2 tools beats surface knowledge of 10. Re-do the same project 3 times to build speed.",
       },
       {
         week: "Week 3-4",
@@ -47,6 +53,8 @@ export const roadmaps: Roadmap[] = [
         description: "Create 3-5 high-quality sample projects that demonstrate your AI-augmented workflow. Show the before/after of AI assistance. Include case-study-style writeups of your process.",
         tools: ["Canva", "Notion", "Carrd", "Google Drive"],
         outcome: "A professional portfolio with 3-5 showcase pieces ready to share with clients.",
+        kpis: "5 portfolio pieces published. Each piece includes a process writeup (200+ words). Portfolio link is shareable and loads in under 3 seconds.",
+        stuck: "If you don't have real clients yet, create spec work — pretend you were hired by a real business and deliver the project. Post it publicly to get feedback from communities like Reddit or Indie Hackers.",
       },
       {
         week: "Week 4-5",
@@ -54,6 +62,8 @@ export const roadmaps: Roadmap[] = [
         description: "Create professional profiles, a basic website, an email address, and your pricing structure. Set up invoicing and project management systems.",
         tools: ["LinkedIn", "Upwork", "Fiverr", "Wave (invoicing)", "Notion"],
         outcome: "Fully operational freelance business ready to accept clients.",
+        kpis: "3 platform profiles 100% complete (photo, bio, portfolio, rate). 1 website or landing page live. Pricing document with 3 tiers defined.",
+        stuck: "If building a website feels like a blocker, use a single-page Carrd site or even a well-formatted Google Doc as your portfolio. Clients care about your work samples, not your web design skills.",
       },
       {
         week: "Week 5-6",
@@ -61,6 +71,8 @@ export const roadmaps: Roadmap[] = [
         description: "Send 5-10 personalized proposals per day on freelancing platforms. Join relevant communities and offer value before pitching. Target 50 total proposals by end of this phase.",
         tools: ["Upwork", "Fiverr", "LinkedIn", "Reddit (r/forhire)"],
         outcome: "Land your first 1-2 paid projects, even at lower rates to build reviews.",
+        kpis: "50 proposals sent. 3+ responses received. 1-2 projects booked (even at below-market rates to build momentum).",
+        stuck: "If you're getting zero responses, your proposals are too generic. Customize the first 2 sentences to reference the client's specific business. Lead with the result you'll deliver, not your credentials.",
       },
       {
         week: "Week 6-7",
@@ -68,6 +80,8 @@ export const roadmaps: Roadmap[] = [
         description: "Over-deliver on early projects. Get 5-star reviews. Document your process and results. Build case studies from real client work for your portfolio.",
         tools: ["Notion", "Google Docs", "Trello"],
         outcome: "3-5 five-star reviews, 2 client testimonials, and 1 detailed case study.",
+        kpis: "100% on-time delivery. 5-star rating on every project. 1 case study with measurable results (e.g., 'Reduced writing time by 60%').",
+        stuck: "If a project is going poorly, communicate early and often. Clients forgive mistakes if you're transparent. Offer a free revision and deliver above expectations to turn a rough project into a glowing review.",
       },
       {
         week: "Week 7-8",
@@ -75,6 +89,8 @@ export const roadmaps: Roadmap[] = [
         description: "With proof of results, increase your rates by 30-50%. Shift from hourly to project-based pricing where possible. Refine your proposal templates based on what converted.",
         tools: ["Spreadsheet tracker", "Proposal templates"],
         outcome: "Rates increased 30-50% with a conversion rate of 20%+ on proposals.",
+        kpis: "Rates increased by at least 30%. Proposal conversion rate at 20%+. Average project value up 40% from week 5-6 baseline.",
+        stuck: "If clients push back on higher rates, hold firm and point to your reviews and results. If conversion drops below 10%, you raised too fast — go back 15% and build more proof before the next increase.",
       },
       {
         week: "Week 8-9",
@@ -82,6 +98,8 @@ export const roadmaps: Roadmap[] = [
         description: "Start publishing content about your AI workflow on Twitter/X and LinkedIn. Share insights, tips, and results. Begin building an audience that comes to you.",
         tools: ["Twitter/X", "LinkedIn", "Buffer", "Canva"],
         outcome: "1-2 inbound inquiries per week from content-driven discovery.",
+        kpis: "5+ posts per week across platforms. 50+ new followers per week. 1-2 DMs or inquiries per week from people who found you through content.",
+        stuck: "If you hate social media, focus on just LinkedIn — it has the highest signal for B2B services. Post 3 times per week sharing specific results and lessons from client work. You don't need to go viral; you need to be findable.",
       },
       {
         week: "Week 9-10",
@@ -89,6 +107,8 @@ export const roadmaps: Roadmap[] = [
         description: "Leverage your existing AI skills to offer a complementary service. If you do AI writing, add AI-assisted SEO. If you do chatbots, add AI data analysis.",
         tools: ["Your existing AI stack", "New specialty tools"],
         outcome: "2 service offerings that cross-sell to existing clients, increasing average project value.",
+        kpis: "Second service defined and listed on all profiles. 2+ existing clients pitched on the new service. 1 cross-sell accepted.",
+        stuck: "If you can't think of a complementary service, ask your existing clients: 'What other problem could I solve for you?' The answer is usually your second service.",
       },
       {
         week: "Week 10-11",
@@ -96,6 +116,8 @@ export const roadmaps: Roadmap[] = [
         description: "Document your entire workflow into repeatable processes. Create templates, SOPs, and checklists. Use AI to handle repetitive parts of your service delivery.",
         tools: ["Notion", "Zapier", "ChatGPT (for automation)", "Loom"],
         outcome: "50% reduction in delivery time per project. Able to handle 2x the workload.",
+        kpis: "SOPs documented for your 2 core services. Project delivery time reduced by 50% vs. Week 5-6. Able to onboard and start a new project in under 1 hour.",
+        stuck: "If you don't know where to start with systems, record yourself doing your next project end-to-end with Loom, then watch it back and write down every repeated step. Those are your first SOPs.",
       },
       {
         week: "Week 11-12",
@@ -103,6 +125,8 @@ export const roadmaps: Roadmap[] = [
         description: "Offer retainer packages to your best clients. Propose monthly recurring work. Create a referral incentive. Focus on client lifetime value over one-off projects.",
         tools: ["Email", "Proposal templates", "HoneyBook/FreshBooks"],
         outcome: "1-2 retainer clients at $1,000-2,000/month each.",
+        kpis: "1-2 retainer agreements signed. Monthly recurring revenue (MRR) of $1,000-2,000. 1 referral received from an existing client.",
+        stuck: "If clients hesitate on retainers, offer a 2-week trial at a reduced rate. Once they experience consistent value, converting to a full retainer is much easier. Frame it as 'priority access' not a contract.",
       },
       {
         week: "Week 12",
@@ -110,6 +134,8 @@ export const roadmaps: Roadmap[] = [
         description: "Review what worked, double down on your highest-ROI activities. Consider hiring a VA for admin work. Set targets for month 4-6 to push toward $8-10k/month.",
         tools: ["Spreadsheet analytics", "Time tracker", "Financial reports"],
         outcome: "Consistent $5,000+/month revenue with a clear growth path and automated systems.",
+        kpis: "Total revenue for Week 12 at $1,250+ (annualized $5k/mo run rate). Time spent on billable work above 70%. Written 90-day growth plan for months 4-6.",
+        stuck: "If you haven't hit $5k/mo run rate yet, don't panic — most people land at $2-3k by Week 12. Review which proposals converted, double that channel, and spend another 30 days focused on volume before pivoting strategy.",
       },
     ],
   },
@@ -127,6 +153,8 @@ export const roadmaps: Roadmap[] = [
         description: "Choose a specific niche at the intersection of your expertise, passion, and market demand. Narrow is better than broad — 'AI tools for freelance writers' beats 'AI tips' every time.",
         tools: ["Google Trends", "AnswerThePublic", "Reddit", "YouTube search"],
         outcome: "A documented niche with 10 sub-topics to cover and a clear target audience profile.",
+        kpis: "3 potential niches scored on demand (1-10), competition (1-10), your fit (1-10). Pick the one with highest total. 10 sub-topics brainstormed and validated.",
+        stuck: "If no niche stands out, pick the intersection of 'what you know' + 'what people pay for' + 'what AI makes 5x faster.' That Venn diagram almost always reveals a viable niche.",
       },
       {
         phase: "Month 2",
@@ -134,6 +162,8 @@ export const roadmaps: Roadmap[] = [
         description: "Set up 2-3 platforms, create templates, and build a 30-day content calendar. Establish a batch-creation workflow using AI tools to produce 1 week of content in 2 hours.",
         tools: ["Notion", "Canva Pro", "ChatGPT", "Buffer", "Descript"],
         outcome: "A repeatable content system producing 5+ pieces of content per week consistently.",
+        kpis: "30-day content calendar completed. Batch creation workflow documented. 5+ pieces published per week. Time to produce 1 week of content: under 2 hours.",
+        stuck: "If you can't find time to create content, batch it: dedicate 2 hours every Sunday to create the entire week's content. Use AI to draft, then spend 15 minutes editing each piece instead of writing from scratch.",
       },
       {
         phase: "Month 3",
@@ -141,6 +171,8 @@ export const roadmaps: Roadmap[] = [
         description: "Commit to daily or near-daily publishing. Focus on quality over quantity initially, then increase volume. Engage with 20+ accounts per day in your niche to build relationships.",
         tools: ["Your chosen platforms", "Analytics dashboards"],
         outcome: "200+ followers, publishing cadence locked in, engagement patterns identified.",
+        kpis: "5+ posts per week. 200+ total followers across platforms. 20+ genuine comments/replies per day on others' content. Top 3 performing content types identified.",
+        stuck: "If growth feels painfully slow, check if you're creating content for your audience or for yourself. Study the top 5 creators in your niche — analyze their hooks, formats, and topics. Mirror what works, then add your unique angle.",
       },
       {
         phase: "Month 3-4",
@@ -148,6 +180,8 @@ export const roadmaps: Roadmap[] = [
         description: "Create a free lead magnet (cheat sheet, template, mini-course) and add email signup to all platforms. Every piece of content should drive list signups. This is your most valuable asset.",
         tools: ["ConvertKit", "Beehiiv", "Canva", "Notion"],
         outcome: "100+ email subscribers with a 40%+ open rate on your first broadcasts.",
+        kpis: "Lead magnet created and live. Signup link in every bio and content piece. 100+ subscribers. 40%+ open rate on first 3 emails.",
+        stuck: "If nobody's signing up, your lead magnet isn't compelling enough. Make it hyper-specific ('7 ChatGPT prompts that land $500 blog posts') instead of generic ('AI Writing Guide'). The more specific the promise, the higher the conversion.",
       },
       {
         phase: "Month 4",
@@ -155,6 +189,8 @@ export const roadmaps: Roadmap[] = [
         description: "Implement the repurposing matrix: every long-form piece becomes 10+ derivative assets. One YouTube video becomes a blog, thread, newsletter, clips, carousel, quotes, and more.",
         tools: ["Opus Clip", "ChatGPT", "Canva", "Repurpose.io"],
         outcome: "10x content output without 10x effort. Presence on 3+ platforms from single content creation sessions.",
+        kpis: "1 long-form piece produces 8+ derivative assets. Active presence on 3+ platforms. Total weekly content output doubled vs. Month 2 without doubling time spent.",
+        stuck: "If repurposing feels like extra work, start small: turn every newsletter into a LinkedIn post and a Twitter thread. That's 3x output from 1 piece. Add more formats once that workflow is automatic.",
       },
       {
         phase: "Month 5",
@@ -162,6 +198,8 @@ export const roadmaps: Roadmap[] = [
         description: "Create a low-ticket digital product ($9-47) based on your most popular content. Use audience feedback and questions to guide the product. Pre-sell if possible.",
         tools: ["Gumroad", "LemonSqueezy", "ChatGPT", "Canva"],
         outcome: "First digital product launched with initial sales validating demand.",
+        kpis: "Product created and listed. 10+ pre-sale interests collected before building. 5+ sales in first week. Product page conversion rate above 2%.",
+        stuck: "If you don't know what product to create, look at your most popular content and DMs — the questions people ask repeatedly are your product ideas. A simple Notion template or prompt pack can sell for $15-30.",
       },
       {
         phase: "Month 5-6",
@@ -169,6 +207,8 @@ export const roadmaps: Roadmap[] = [
         description: "Add revenue streams: sponsorships, affiliate partnerships, consulting calls, premium community. Diversify income so no single stream exceeds 40% of total revenue.",
         tools: ["Stripe", "Calendly", "Gumroad", "Affiliate platforms"],
         outcome: "3+ active revenue streams generating consistent monthly income.",
+        kpis: "3+ revenue streams active. No single stream exceeds 40% of total income. $500+/month from combined content monetization.",
+        stuck: "If sponsors aren't reaching out yet, create a media kit with your stats and proactively pitch brands with 50-100k followers or less — they're more responsive and often pay better rates per impression than big brands.",
       },
       {
         phase: "Month 6",
@@ -176,6 +216,8 @@ export const roadmaps: Roadmap[] = [
         description: "Analyze what content performs best, double down on winners. Consider hiring for editing or admin. Set 12-month targets and build a team or system to get there.",
         tools: ["Google Analytics", "Platform analytics", "Spreadsheet"],
         outcome: "1,000+ followers, 500+ email subscribers, $500-2,000/month in diversified income.",
+        kpis: "1,000+ followers. 500+ email subscribers. $500-2,000/month in diversified income. Content production time under 5 hours/week. 12-month growth plan written.",
+        stuck: "If your numbers are below target, resist the urge to start over. The content compound effect is real but slow — most creators see a hockey-stick inflection between Month 6 and Month 9. Keep publishing and optimizing.",
       },
     ],
   },
@@ -194,6 +236,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["High-yield savings account", "YNAB/EveryDollar", "Automatic transfers"],
         outcome: "3-6 months of expenses saved. Ability to take calculated risks without fear of financial ruin.",
         target: "Net Worth: -$10,000 to $0 (debt reduction + starter savings)",
+        kpis: "$1,000 mini emergency fund within 30 days. Full 3-6 month fund within 6 months. Automated weekly transfers set up and running.",
+        stuck: "If saving feels impossible, start with $25/week automated — you won't miss it. Cut one subscription or dining-out habit and redirect that money. The $1,000 mini fund is your first milestone; don't try to save 6 months all at once.",
       },
       {
         phase: "Year 1, Milestone 2",
@@ -202,6 +246,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["AI freelancing", "Content creation", "Index fund investing"],
         outcome: "2-3 active income streams totaling $3,000-5,000/month.",
         target: "Monthly Income: $3,000-5,000 across multiple sources",
+        kpis: "2-3 income streams active. Total monthly income at $3,000+. No single stream exceeds 70% of total income. At least 1 automated or semi-passive stream started.",
+        stuck: "If you're stuck on a single income source, don't add a new one from scratch — use your existing AI skills to create a simple digital product (prompt pack, template) in a weekend. That's your second stream with minimal effort.",
       },
       {
         phase: "Year 2",
@@ -210,6 +256,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["Debt payoff calculator", "Automated payments", "Budgeting app"],
         outcome: "All high-interest debt eliminated. Only low-interest debt (mortgage, student loans) remaining.",
         target: "Net Worth: $5,000-15,000",
+        kpis: "All debt above 7% interest paid off. Total high-interest debt reduced to $0. Monthly debt payments redirected to savings/investing.",
+        stuck: "If debt feels overwhelming, list every balance and interest rate. Pay minimums on everything except the highest-rate card — attack that one with everything extra. Seeing one balance hit $0 is incredibly motivating and creates momentum.",
       },
       {
         phase: "Year 2-3",
@@ -218,6 +266,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["Solo 401(k)", "SEP-IRA", "Roth IRA", "Tax software"],
         outcome: "$50,000-76,000 per year flowing into tax-advantaged retirement accounts.",
         target: "Retirement Accounts: $50,000-100,000",
+        kpis: "Solo 401(k) or SEP-IRA open and funded. Roth IRA maxed out for the year. Automated monthly contributions set up. Annual tax bill reduced by $5,000+ vs. not having accounts.",
+        stuck: "If you can't max out all accounts, prioritize in this order: (1) Solo 401(k) up to employer match, (2) Roth IRA max, (3) rest of Solo 401(k). Even partial contributions compound massively over time — don't let 'perfect' block 'good.'",
       },
       {
         phase: "Year 3",
@@ -226,6 +276,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["Digital products", "Email funnels", "SEO content", "Affiliate marketing"],
         outcome: "$500-2,000/month in semi-passive or passive income.",
         target: "Monthly Passive Income: $500-2,000",
+        kpis: "At least 1 fully automated income system running. $500+/month in passive or semi-passive income. Less than 5 hours/week required to maintain the system.",
+        stuck: "If your passive income is $0, start with a simple automated email funnel: 5 emails that sell your existing service or product. Set it up once, and it works 24/7. That's the gateway to true passive income.",
       },
       {
         phase: "Year 3-4",
@@ -234,6 +286,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["Project management", "Hiring platforms", "SOPs", "Automation (Zapier)"],
         outcome: "Business generating $8,000-15,000/month with 10-20 hours of your time per week.",
         target: "Net Worth: $50,000-150,000",
+        kpis: "1+ VA or contractor hired. Weekly hours on delivery reduced to under 20. Monthly revenue at $8,000+. SOPs for all core deliverables documented.",
+        stuck: "If you can't afford to hire, start by delegating just 2-3 hours of admin per week to a $5-8/hr VA. Use that freed time for sales and strategy, which should generate enough to justify more delegation.",
       },
       {
         phase: "Year 4",
@@ -242,6 +296,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["Taxable brokerage", "Real estate", "Index funds", "Financial advisor (optional)"],
         outcome: "Total investment portfolio reaching $100,000-250,000 across all accounts.",
         target: "Total Investments: $100,000-250,000",
+        kpis: "Taxable brokerage account open and funded. Total portfolio at $100,000+. Investment rate of 30-50% of net income. Asset allocation reviewed and rebalanced quarterly.",
+        stuck: "If investing feels intimidating, start with a simple three-fund portfolio (US stocks, international stocks, bonds) and automate monthly contributions. You don't need to pick stocks — index funds outperform 90% of active investors over 10 years.",
       },
       {
         phase: "Year 4-5",
@@ -250,6 +306,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["Nomad List", "Cost-of-living calculators", "Visa research"],
         outcome: "Monthly expenses reduced by 30-60% while maintaining quality of life and income.",
         target: "Monthly Expenses: Reduced 30-60%",
+        kpis: "Monthly expenses reduced by at least 30%. Income maintained or increased. Quality of life score (self-assessed) maintained at 7+/10. Visa/remote work logistics sorted.",
+        stuck: "If relocation isn't possible or desirable, apply the same principle locally: negotiate remote work, move to a cheaper city within your country, or simply audit and cut 20% of expenses. Geographic arbitrage is a mindset, not just a move.",
       },
       {
         phase: "Year 5",
@@ -258,6 +316,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["FI calculator", "Portfolio tracker", "Expense tracker"],
         outcome: "Clear FI number defined, realistic timeline established, and investment strategy aligned to reach it.",
         target: "Net Worth: $200,000-500,000+",
+        kpis: "FI number calculated and written down. Monthly savings rate at 40%+ of income. Net worth at $200,000+. Withdrawal rate simulation run — portfolio survives 30+ years in 95%+ of scenarios.",
+        stuck: "If your FI number feels impossibly large, break it into quarterly milestones and focus on the next one. Also consider that reducing expenses by $1,000/month lowers your FI number by $300,000 — lifestyle optimization is as powerful as earning more.",
       },
       {
         phase: "Year 5+",
@@ -266,6 +326,8 @@ export const roadmaps: Roadmap[] = [
         tools: ["Investment portfolio", "Automated systems", "Annual review"],
         outcome: "Complete financial independence. Freedom to choose how you spend your time, energy, and attention.",
         target: "FI Number: (Your Annual Expenses × 25) fully funded",
+        kpis: "Investment portfolio covers 100% of annual expenses at 4% withdrawal. Annual portfolio review completed. Withdrawal rate at or below 4%. Work hours fully optional — you work because you choose to.",
+        stuck: "If you reach this milestone but feel anxious about stopping work, that's normal. Try a 'practice FI' month: live only on portfolio withdrawals for 30 days. Most people find it liberating and realize they were overestimating how much they needed to work.",
       },
     ],
   },

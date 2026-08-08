@@ -40,7 +40,7 @@ You don't need to build AI. You need to **use** AI to do work that previously re
 - Automate repetitive business processes end-to-end
 - Provide consulting services at scale with AI-assisted delivery
 
-The key insight is that you're not competing with AI — you're using AI to compete with people who aren't using it. The gap between AI-augmented workers and traditional workers is widening every month. In 2024, an AI-augmented content writer produces 5-10x the output of a traditional writer. An AI-augmented developer ships features 3-5x faster. An AI-augmented analyst processes data that would take a team of analysts weeks.
+The key insight is that you're not competing with AI — you're using AI to compete with people who aren't using it. The gap between AI-augmented workers and traditional workers is widening every month. In 2025, an AI-augmented content writer produces 5-10x the output of a traditional writer. An AI-augmented developer ships features 3-5x faster. An AI-augmented analyst processes data that would take a team of analysts weeks.
 
 ### Pillar 2: Digital Asset Building
 
@@ -1048,7 +1048,7 @@ For each prompt, document:
 ### Research Prompt
 \`\`\`
 Research [topic] comprehensively. Include:
-- Current state of the field (2024)
+- Current state of the field (2025)
 - Key players, companies, and thought leaders
 - Statistics and data points (with sources when possible)
 - Expert opinions and notable quotes
@@ -1472,7 +1472,7 @@ The tax code is complex, but the good news is that self-employed AI workers have
 
 ## Understanding Tax Brackets
 
-The US uses a progressive tax system, meaning different portions of your income are taxed at different rates. For 2024 (single filer):
+The US uses a progressive tax system, meaning different portions of your income are taxed at different rates. For 2025 (single filer):
 
 | Taxable Income | Tax Rate |
 |---------------|----------|
@@ -1565,7 +1565,7 @@ Once your net business income exceeds $50,000-60,000/year, forming an S-Corporat
 ## International Tax Strategy
 
 ### Foreign Earned Income Exclusion (FEIE)
-If you live outside the US for 330+ days in a 12-month period, you can exclude up to **$126,500** (2024) of foreign-earned income from US taxes. This is massive for digital nomads.
+If you live outside the US for 330+ days in a 12-month period, you can exclude up to **$126,500** (2025) of foreign-earned income from US taxes. This is massive for digital nomads.
 
 **Requirements**:
 - Bona fide residence test: You're a bona fide resident of a foreign country
@@ -1600,7 +1600,7 @@ The most powerful retirement account for self-employed individuals:
 ### SEP IRA
 Simpler alternative to Solo 401(k):
 - Contribute up to 25% of net self-employment income
-- Maximum $69,000 for 2024
+- Maximum $69,000 for 2025
 - Easier to set up and maintain
 - Only traditional (pre-tax) option
 - No employee contribution — only employer contribution

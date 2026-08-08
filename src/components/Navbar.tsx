@@ -15,6 +15,7 @@ const navItems = [
   { href: "/cheatsheets", label: "Cheatsheets" },
   { href: "/roadmaps", label: "Roadmaps" },
   { href: "/faq", label: "FAQ" },
+  { href: "/downloads", label: "Downloads" },
   { href: "/about", label: "About" },
 ];
 
