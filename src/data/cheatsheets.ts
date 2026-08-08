@@ -29,10 +29,11 @@ export const cheatsheets: Cheatsheet[] = [
       {
         heading: "CRISPE Framework",
         items: [
-          { title: "Capacity & Role", content: "Define who the AI should be. Assign expertise and perspective.", example: "You are a senior freelance copywriter with 10 years of experience in SaaS marketing." },
+          { title: "Capacity", content: "Define the AI's capabilities, knowledge domain, and expertise level.", example: "You have deep expertise in SaaS marketing, freelance business strategy, and conversion copywriting." },
+          { title: "Role", content: "Define who the AI should be. Assign a professional perspective.", example: "You are a senior freelance copywriter with 10 years of experience." },
           { title: "Insight", content: "Provide context, background, or key information the AI needs.", example: "The client sells a project management tool for remote teams, $29/mo, primarily targeting agencies." },
           { title: "Statement", content: "Clearly state what you want the AI to do.", example: "Write a landing page hero section with headline, subheadline, and CTA button text." },
-          { title: "Personality", content: "Specify tone, style, or voice.", example: "Use a confident, direct tone. Avoid jargon. Write at an 8th-grade reading level." },
+          { title: "Persona", content: "Specify tone, style, or voice for the output.", example: "Use a confident, direct tone. Avoid jargon. Write at an 8th-grade reading level." },
           { title: "Experiment", content: "Give format constraints or variations to try.", example: "Provide 3 variations: one benefit-focused, one pain-point-focused, one social-proof-focused." },
         ],
       },
@@ -126,7 +127,6 @@ export const cheatsheets: Cheatsheet[] = [
         heading: "Vehicle Expenses",
         items: [
           { title: "Standard Mileage Rate (2025)", content: "67 cents/mile for business use. Track total business miles driven." },
-          { title: "Standard Mileage Rate (2025)", content: "70 cents/mile for business use. Always use the current year's rate." },
           { title: "Actual Expense Method", content: "Deduct gas, insurance, repairs, registration, depreciation, prorated by business-use percentage. Log business vs. total miles." },
         ],
       },
@@ -149,8 +149,7 @@ export const cheatsheets: Cheatsheet[] = [
       {
         heading: "Retirement Account Contributions",
         items: [
-          { title: "Solo 401(k) (2025)", content: "Up to $23,000 employee contribution + 25% of net self-employment earnings (max $69,000 total)." },
-          { title: "Solo 401(k) (2025)", content: "Up to $23,500 employee contribution + 25% of net self-employment earnings (max $70,000 total)." },
+          { title: "Solo 401(k) (2025)", content: "Up to $23,000 employee contribution + 25% of net self-employment earnings (max $70,000 total)." },
           { title: "SEP-IRA", content: "Up to 25% of net self-employment earnings, max $69,000 (2025) / $70,000 (2026). Simpler to set up than Solo 401(k)." },
           { title: "Traditional/Roth IRA", content: "$7,000 (2025) / $7,000 (2026) if under 50, or $8,000 if 50+ with catch-up. Deductible depending on income." },
         ],

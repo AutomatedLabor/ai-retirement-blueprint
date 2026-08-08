@@ -264,6 +264,14 @@ The fundamental shift is this: clients don't care how long something takes you. 
 
 **What you deliver**: Business intelligence reports, market research, competitive analysis, data visualizations, financial models.
 
+**How AI helps**:
+- ChatGPT Advanced Data Analysis for cleaning, exploring, and visualizing datasets in seconds
+- Claude for interpreting complex results and writing executive summaries
+- Perplexity for real-time market research and competitor benchmarking
+- Your value: asking the right questions, validating AI outputs, strategic recommendations, presentation to stakeholders
+
+**Tool stack**: ChatGPT Plus ($20/mo), Claude Pro ($20/mo), Google Sheets (free), Tableau Public (free)
+
 ### 5. AI Automation Consulting ($200-500/hour)
 
 **What you deliver**: Workflow automation, chatbot implementation, content pipelines, data processing systems, CRM integrations.
@@ -2025,7 +2033,7 @@ Track these metrics monthly:
     slug: "mindset-and-habits",
     title: "The Millionaire Mindset: Habits of Financially Free People",
     description: "The psychological foundations of wealth — mindset, habits, and systems that separate the financially free from everyone else.",
-    icon: "\U0001f9e0",
+    icon: "\U0001f4ad",
     difficulty: "Beginner",
     readTime: "18 min",
     tags: ["mindset", "habits", "psychology", "productivity"],
@@ -2171,7 +2179,7 @@ Before paying any bill, transfer money to savings and investments. Automate this
 - Bill pay: automatic on due dates
 - Investing: automatic on payday
 - Savings: automatic weekly transfer
-- Expense tracking: automatic via bank sync (Mint, YNAB, Copilot)
+- Expense tracking: automatic via bank sync (Monarch Money, YNAB, Copilot)
 
 ### The 24-Hour Rule
 For any non-essential purchase over $100: wait 24 hours before buying. Most impulse desires fade.

@@ -12,7 +12,7 @@ const stats = [
   { label: "In-Depth Guides", value: "12", icon: "📚" },
   { label: "Interactive Tools", value: "16", icon: "🔧" },
   { label: "Curated Resources", value: "166", icon: "🌐" },
-  { label: "Research Reports", value: "12", icon: "🔬" },
+  { label: "Research Reports", value: "4", icon: "🔬" },
   { label: "Actionable Checklists", value: "8", icon: "✅" },
   { label: "Quick-Reference Cheatsheets", value: "6", icon: "📋" },
 ];
@@ -64,20 +64,20 @@ export default function Home() {
       {/* The Framework */}
       <Section title="The Framework" subtitle="Three pillars to build your AI-powered retirement">
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-gradient-to-br from-primary-50 to-white rounded-xl p-6 border border-primary-100">
+          <div className="bg-gradient-to-br from-primary-50 dark:from-primary-900/30 to-white dark:to-gray-900 rounded-xl p-6 border border-primary-100 dark:border-primary-800">
             <div className="text-3xl mb-4">⚡</div>
-            <h3 className="text-xl font-bold mb-2">AI-Augmented Income</h3>
-            <p className="text-gray-600">Use AI tools to deliver 10x the value in half the time. One person with the right tools can now do what used to require a team.</p>
+            <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">AI-Augmented Income</h3>
+            <p className="text-gray-600 dark:text-gray-400">Use AI tools to deliver 10x the value in half the time. One person with the right tools can now do what used to require a team.</p>
           </div>
-          <div className="bg-gradient-to-br from-accent-50 to-white rounded-xl p-6 border border-accent-100">
+          <div className="bg-gradient-to-br from-accent-50 dark:from-accent-900/30 to-white dark:to-gray-900 rounded-xl p-6 border border-accent-100 dark:border-accent-800">
             <div className="text-3xl mb-4">🔄</div>
-            <h3 className="text-xl font-bold mb-2">Digital Asset Building</h3>
-            <p className="text-gray-600">Build things that work while you sleep — content, software, templates, courses. Compounding assets beat hourly work every time.</p>
+            <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Digital Asset Building</h3>
+            <p className="text-gray-600 dark:text-gray-400">Build things that work while you sleep — content, software, templates, courses. Compounding assets beat hourly work every time.</p>
           </div>
-          <div className="bg-gradient-to-br from-gold-50 to-white rounded-xl p-6 border border-gold-100">
+          <div className="bg-gradient-to-br from-gold-50 dark:from-gold-900/30 to-white dark:to-gray-900 rounded-xl p-6 border border-gold-100 dark:border-gold-800">
             <div className="text-3xl mb-4">📈</div>
-            <h3 className="text-xl font-bold mb-2">Smart Capital Allocation</h3>
-            <p className="text-gray-600">Put your money to work with AI-enhanced investing. Index funds as a foundation, then layer on data-driven decisions.</p>
+            <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Smart Capital Allocation</h3>
+            <p className="text-gray-600 dark:text-gray-400">Put your money to work with AI-enhanced investing. Index funds as a foundation, then layer on data-driven decisions.</p>
           </div>
         </div>
       </Section>
@@ -122,7 +122,7 @@ export default function Home() {
           <Link href="/faq" className="bg-white dark:bg-gray-900 rounded-xl p-6 border dark:border-gray-800 card-hover">
             <div className="text-3xl mb-3">❓</div>
             <h3 className="font-bold text-lg">FAQ</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Answers to 20+ questions about AI-powered retirement</p>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Answers to common questions about AI-powered retirement</p>
           </Link>
         </div>
       </Section>
@@ -146,7 +146,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Your retirement starts with a single step</h2>
           <p className="text-lg text-white/80 mb-8">Everything you need is here. The guides, the tools, the resources. The only missing ingredient is your action.</p>
-          <Link href="/guides/the-blueprint" className="inline-block px-8 py-3.5 bg-white text-primary-700 font-semibold rounded-xl hover:bg-gray-100 transition-colors">
+          <Link href="/guides/the-blueprint" className="inline-block px-8 py-3.5 bg-white dark:bg-gray-900 text-primary-700 dark:text-primary-300 font-semibold rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
             Read The Blueprint →
           </Link>
         </div>
